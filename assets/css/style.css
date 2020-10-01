@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&display=swap');
+
+/*--------------------- Colors*/
+
+.details, .cv-link {
+    background-color: #AED6F1
+}
+
+.social-links {
+    background-color: #d6d4d4;
+}
+
+#copyright {
+    background-color: #2c2d54;
+ }
+
+/*--------------------- Nav bar*/
+
+.nav-item {
+    text-align: right;
+}
+
+
+/*--------------------- Heading*/
+
+
+/*---------- Personal Statement*/
+
+
+/*-------------------- About Me*/
+
+
+/*--------------------- Footer*/
+
+#base {
+    padding: 0;
+}
+
+.foot-heading {
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px auto;
+}
+
+.copyright {
+    color: #8b8b97;
+    padding: 0;
+}

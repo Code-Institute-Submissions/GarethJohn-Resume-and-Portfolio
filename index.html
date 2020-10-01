@@ -18,7 +18,7 @@
 <body>
     <header>
     <!--Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg" style="background-color:#d6d4d4; color: #000;">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/gej-logo.png" width="100" height="80" alt="logo" loading="lazy">
             </a>         
@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">                
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav-list">                
                     <li class="nav-item"><a class="nav-link" href="resume.html">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -57,18 +57,18 @@
     <!--About Me-->
 
     </section>
-    <footer class="container-fluid">
+    <footer id="base" class="container-fluid">
     <!--Contact-->
-        <div class="row">
-            <div class="col-sm-4 text-center">
-                <h5>Details</h5>
-                <p>Cheltenham, UK <br>
-                +44 7712 449418
+        <div id="footer-info" class="row">
+            <div class="col-sm-4 text-center details">
+                <h5 class="text-uppercase foot-heading">Details</h5>
+                <p><i class="fas fa-map-marker-alt"></i> Cheltenham, UK <br>
+                <i class="fas fa-mobile-alt"></i> +44 7712 449418
                 </p>
             </div>
     <!--Social Links-->
-            <div class="col-sm-4 text-center">
-                <h5>Social</h5>
+            <div class="col-sm-4 text-center social-links">
+                <h5 class="text-uppercase foot-heading">Social</h5>
                 <ul class="list-inline social-media">
                     <li class="list-inline-item">
                         <a href="https://www.linkedin.com/in/gareth-john-970a5421/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
@@ -83,18 +83,19 @@
                 </ul>
             </div>
     <!--Download Link-->
-            <div class="col-sm-4 text-center">
-                <h5>Download</h5>
+            <div class="col-sm-4 text-center cv-link">
+                <h5 class="text-uppercase foot-heading">Download</h5>
                 <p class="inline-block">Get a printable version of my CV here!
                     <a class="cv-pdf" href="assets/docs/#" target="_blank">
                     <i class="fas fa-download" aria-hidden="true"></i>
                     <span class="sr-only">Download Link</span>
                     </a>
                 </p>
+            </div>        
+            <div id="copyright" class="row container-fluid no-gutters">
+                <div class="col-12">
+                <p class="copyright text-center"><i class="far fa-copyright"></i> 2020 Copright: Gareth John</p>        
             </div>
-        </div>
-        <div class="container-fluid">
-            <p class="copyright text-center"><i class="far fa-copyright"></i> 2020 Copright: Gareth John</p>        
         </div>   
     
     </footer>
