@@ -87,3 +87,26 @@ margin-right: -15px
 #copyright p {
     margin-top: 15px;
 }
+
+/*----------------- Portfolio--*/
+
+/*-------------------- Resume--*/
+
+/*-------------- Contact Info--*/
+
+.form-control {
+    width: 500px;
+    margin: 0 auto;    
+}
+
+.form-group label, .submit-button {
+margin-left: 225px;
+}
+
+/*-------------- Media Queries--*/
+
+@media(max-width: 320px) {
+.form-control {
+    width: 200px;
+    margin: 0 auto;
+}
