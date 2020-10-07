@@ -41,9 +41,9 @@
     <section class="container-fluid">
         <div class="row">
         <!--Skills Section-->
-            <div class="col-md-4 section-column skills-box">
+            <div class="col-md-4 section-column">
                 <div class="row skill-section">
-                    <div class="col-12">
+                    <div class="col-12 ml-2 skills-box">
                         <h3>Key Skills</h3>
                         <span>HTML5</span>
                         <div class="progress">
@@ -92,23 +92,23 @@
                     </div>                      
                 </div>
         <!--Education History Section-->
-                <div class="row education">
-                    <div class="col-12">
+                <div class="row">
+                    <div class="col-12 education">
                         <h3>Education</h3>
                             <ul>
-                                <li>B.Eng (Hons) Industrial Geology (Grade 2:1)
-                                    <p><a href="http://emps.exeter.ac.uk/csm/" target="_blank">Camborne School of Mines, University of Exeter</a></p>
-                                </li>
-                                <li>Postgraduate modules
-                                    <p>Robert Gordon University</p>
-                                        <ul>
-                                            <li>Sub-sea Technology</li>
-                                            <li>Well Engineering</li>
-                                            <li>Production Technology</li>
-                                        </ul>
+                                <li class="qualification">B.Eng (Hons) Industrial Geology (Grade 2:1)</li>
+                                    <p class="school"><a href="http://emps.exeter.ac.uk/csm/" target="_blank">Camborne School of Mines, University of Exeter</a></p>
+                                
+                                <li id="rgu-mods">Postgraduate modules                                    
+                                    <ul>
+                                        <li>Sub-sea Technology</li>
+                                        <li>Well Engineering</li>
+                                        <li>Production Technology</li>
+                                    </ul>
+                                    <p class="school"><a href="https://www.rgu.ac.uk/study/types-of-study/postgraduate-courses/energy-postgraduate" target="_blank">Robert Gordon University</a></p>
                                 </li><br>
-                                <li>Professional Diploma in Fullstack Software Development (ONGOING)
-                                <p><a href="https://codeinstitute.net/" target="_blank">Code Institute</a></p>
+                                <li class="qualification">Professional Diploma in Fullstack Software Development (ONGOING)</li>
+                                <p class="school"><a href="https://codeinstitute.net/" target="_blank">Code Institute</a></p>
                                 </li>
                             </ul>
                     </div>
@@ -118,84 +118,151 @@
             <div class="col-md-8 section-column work-history">
                 <h3>Work History</h3>
                     <div class="row">                   
-                        <div class="col-12">
-                        <!--Accordion feature copied from https://supfort.com/font-awesome-accordion-arrow-css-->
-                            <h4 class="company my-3"><a href="https://www.e6.com/en" target="_blank">Element Six Ltd</a></h4>
-                                <p>Part of the <a href="https://www.debeersgroup.com/" target="_blank">De Beers Group</a>, Element Six is an innovative company specialising in providing synthetic diamond, cubic boron nitride and other super hard materials for industrial use.</p>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> November 2014 - July 2020</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title1" />
-                                    <label class="job-title" for="title1">Product Manager - Oil & Gas</label>
-                                        <div class="content">
-                                            <p>Maintaining responsibility for overseeing the end to end development of new polycrystalline diamond cutter products and working with clients 
-                                            globally to ensure seamless implementation from both a technical and commercial perspective.</p>
+                        <div class="col-md-12 company-box">
+                        <!--Accordion feature copied and adapted from https://supfort.com/font-awesome-accordion-arrow-css-->
+                            <div class="row container-fluid">
+                                <div class="col-md-12">
+                                    <h4 class="company my-3"><a href="https://www.e6.com/en" target="_blank">Element Six Ltd</a></h4>
+                                        <p>Part of the <a href="https://www.debeersgroup.com/" target="_blank">De Beers Group</a>, Element Six is an innovative company specialising in 
+                                        providing synthetic diamond, cubic boron nitride and other super hard materials for industrial use.
+                                        </p>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Nov 2014 - Jul 2020</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title1" />
+                                            <label class="job-title" for="title1">Product Manager - Oil & Gas</label>
+                                                <div class="content">
+                                                    <p>Maintaining responsibility for overseeing the end to end development of new polycrystalline diamond cutter products and working with clients 
+                                                    globally to ensure seamless implementation from both a technical and commercial perspective.</p>
+                                                </div>
                                         </div>
-                            <h4 class="company my-3"><a href="https://www.nov.com/about/our-business-units/reedhycalog" target="_blank">National Oilwell Varco - ReedHycalog</a></h4>
-                                <p>The ReedHycalog business unit offers innovative products, services and technologies that help Operators and Drilling Contractors optimize the 
-                                drilling process. Their products span three major areas: drill bits, borehole enlargement, and coring services.</p>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> July 2012 - November 2014</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title2" />
-                                    <label class="job-title" for="title2">Product Line Manager</label>
-                                        <div class="content">
-                                            <p>Overseeing four oil and gas drill bit product lines: leading the development and implementation of new and innovative products to 
-                                            market, as well as re-vitalising existing legacy products.</p>
+                                    </div>
+                                    <h4 class="company my-3"><a href="https://www.nov.com/about/our-business-units/reedhycalog" target="_blank">National Oilwell Varco - ReedHycalog</a></h4>
+                                        <p>The ReedHycalog business unit offers innovative products, services and technologies that help Operators and Drilling Contractors optimize the 
+                                        drilling process. Their products span three major areas: drill bits, borehole enlargement, and coring services.
+                                        </p>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jul 2012 - Nov 2014</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title2" />
+                                            <label class="job-title" for="title2">Product Line Manager</label>
+                                            <div class="content">
+                                                <p>Overseeing four oil and gas drill bit product lines: leading the development and implementation of new and innovative products to 
+                                                market, as well as re-vitalising existing legacy products.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> June 2011 - July 2012</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title3" />
-                                    <label class="job-title" for="title3">Project Leader</label>
-                                        <div class="content">
-                                            <p>Providing cross site (UK/US) leadership for long term projects within the Product Line Engineering group. These projects had a broader 
-                                            and more strategic remit than the majority of work carried out by the department.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jun 2011 - Jul 2012</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title3" />
+                                            <label class="job-title" for="title3">Project Leader</label>
+                                            <div class="content">
+                                                <p>Providing cross site (UK/US) leadership for long term projects within the Product Line Engineering group. These projects had a broader 
+                                                and more strategic remit than the majority of work carried out by the department.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> April 2010 - June 2011</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title4" />
-                                    <label class="job-title" for="title4">Area Evaluation Engineering Manager (Northern Gulf)</label>
-                                        <div class="content">
-                                            <p>Responsible for rebuilding the Evaluation Engineering department in Middle East North after resignations and intercompany moves left the 
-                                            department understaffed. Required integrating a multinational and technically competent team drawn from many different backgrounds.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Apr 2010 - Jun 2011</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title4" />
+                                            <label class="job-title" for="title4">Area Evaluation Engineering Manager (Northern Gulf)</label>
+                                            <div class="content">
+                                                <p>Responsible for rebuilding the Evaluation Engineering department in Middle East North after resignations and intercompany moves left the 
+                                                department understaffed. Required integrating a multinational and technically competent team drawn from many different backgrounds.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> June 2008 - April 2010</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title5" />
-                                    <label class="job-title" for="title5">Account Manager (East Australia & Papua New Guinea)</label>
-                                        <div class="content">
-                                            <p>Requiring an understanding of the different applications and drilling practices associated with the Oil & Gas, Coal Bed Methane and 
-                                            Geothermal operators working in East Australia and PNG. Responsible for generating sales, providing technical proposals and technical 
-                                            presentations.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jun 2008 - Apr 2010</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title5" />
+                                            <label class="job-title" for="title5">Account Manager (East Australia & Papua New Guinea)</label>
+                                            <div class="content">
+                                                <p>Requiring an understanding of the different applications and drilling practices associated with the Oil & Gas, Coal Bed Methane and 
+                                                Geothermal operators working in East Australia and PNG. Responsible for generating sales, providing technical proposals and technical 
+                                                presentations.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> June 2006 - June 2008</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title6" />
-                                    <label class="job-title" for="title6">Regional Evaluation Engineer (Middle East)</label>
-                                        <div class="content">
-                                            <p>Conduit for information transfer between the Field Sales and Engineering groups. Responsible for collating and disseminating material 
-                                            relating to the success and failure of our products within the Middle East region. Building and maintaining close relationships with key 
-                                            personnel in Directional Drilling companies; ensuring that our products remained competitive on the different directional systems.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jun 2006 - Jun 2008</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title6" />
+                                            <label class="job-title" for="title6">Regional Evaluation Engineer (Middle East)</label>
+                                            <div class="content">
+                                                <p>Conduit for information transfer between the Field Sales and Engineering groups. Responsible for collating and disseminating material 
+                                                relating to the success and failure of our products within the Middle East region. Building and maintaining close relationships with key 
+                                                personnel in Directional Drilling companies; ensuring that our products remained competitive on the different directional systems.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> January 2000 - June 2006</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title7" />
-                                    <label class="job-title" for="title7">Solutions Engineer (Design)</label>
-                                        <div class="content">
-                                            <p>Designing and developing numerous fixed cutter PDC bits in each of our major fixed cutter PDC product ranges. Assigned deputising authority 
-                                            for the Solutions Engineering department in 2002 and retained until departure in 2006; and instrumental in developing a career development 
-                                            plan for the department.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jan 2000 - Jun 2006</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title7" />
+                                            <label class="job-title" for="title7">Solutions Engineer (Design)</label>
+                                            <div class="content">
+                                                <p>Designing and developing numerous fixed cutter PDC bits in each of our major fixed cutter PDC product ranges. Assigned deputising authority 
+                                                for the Solutions Engineering department in 2002 and retained until departure in 2006; and instrumental in developing a career development 
+                                                plan for the department.</p>
+                                            </div>
                                         </div>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> January 1998 - January 2000</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title8" />
-                                    <label class="job-title" for="title8">Applications Engineer</label>
-                                        <div class="content">
-                                            <p>PDC drill bit and application evaluation; recommending the most efficient and cost effective solution for the customers objectives. Provinding 
-                                            applications and sales support for customers in the UK, CIS and Kazakhstan. Bit run supervision at the rig site to ensure that our products were 
-                                            utilised correctly and that the optimum operating parameters were maintained.</p>
+                                    </div>
+                                    <h4 class="company my-3">Hycalog</h4>
+                                        <p>Hycalog were the global leader in fixed cutter/PDC drill bit design manufacture and service. The company developed many innovations 
+                                        for the Oil and Gas industry covering everything from bearing design to proprietary manufacturing processes, as well as introducing onto the market the ﬁrst
+                                         polycrystalline diamond compact (PDC) drill bit.
+                                        </p>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jan 1998 - Jan 2000</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title8" />
+                                            <label class="job-title" for="title8">Applications Engineer</label>
+                                            <div class="content">
+                                                <p>PDC drill bit application and evaluation; recommending the most efficient and cost effective solution for the customers objectives. Provinding 
+                                                applications and sales support for customers in the UK, CIS and Kazakhstan. Bit run supervision at the rig site to ensure that our products were 
+                                                utilised correctly and that the optimum operating parameters were maintained.</p>
+                                            </div>
                                         </div>
-                            <h4 class="company my-3"><a href="https://www.slb.com/" target="_blank">Schlumberger - Anadrill</a></h4>
-                                <p>Schlumgerger is the world's leading oilfield services provider. The Anadrill division was responsible for providing Directional Drilling, Measurement and 
-                                Logging while Drilline and Mud Logging services to the worlds leading National and International oil companies.</p>
-                                    <h5 class="work-dates"><i class="far fa-calendar-alt"></i> January 1994 - January 1998</h5>
-                                    <input class="job-dropdown" type="checkbox" id="title9" />
-                                    <label class="job-title" for="title9">Data Engineer & Mud Logger</label>
-                                        <div class="content">
-                                            <p>Assigned to BP’s Wytch Farm Oilfield in Southern England; but also assigned to offshore oil rigs in the North Sea. Working closely with 
-                                            the numerous service companies to provide 24/7/365 coverage of drilling and completions operations to ensure safe and efficient drilling 
-                                            practices. Assigned my own unit in 1997 for BP’s Short Radius “In-fill” drilling project, responsible for the entire Mud Logging service.</p>
-                                        </div>                
+                                    </div>
+                                    <h4 class="company my-3"><a href="https://www.slb.com/" target="_blank">Schlumberger - Anadrill</a></h4>
+                                        <p>Schlumgerger is the world's leading oilfield services provider. The Anadrill division was responsible for providing Directional Drilling, Measurement and 
+                                        Logging while Drilline and Mud Logging services to the worlds leading National and International oil companies.
+                                        </p>
+                                    <div class="row">
+                                        <div class="col-md-3 section-column dates-box">
+                                            <h5 class="work-dates"><i class="far fa-calendar-alt"></i> Jan 1994 - Jan 1998</h5>
+                                        </div>                                    
+                                        <div class="col-md-9 section-column role-box">
+                                            <input class="job-dropdown" type="checkbox" id="title9" />
+                                            <label class="job-title" for="title9">Data Engineer & Mud Logger</label>
+                                            <div class="content">
+                                                <p>Assigned to BP’s Wytch Farm Oilfield in Southern England; with frequent short assignments to offshore oil rigs in the North Sea. Working 
+                                                closely with the numerous service companies to provide 24/7/365 coverage of drilling and completions operations to ensure safe and efficient 
+                                                drilling practices. Assigned my own unit in 1997 for BP’s Short Radius “In-fill” drilling project, responsible for the entire Mud Logging service.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
                         </div>                        
                     </div>        
             </div>
