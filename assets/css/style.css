@@ -86,8 +86,6 @@ margin-right: -15px
     margin-top: 15px;
 }
 
-/*--------------------- Landing Page*/
-
 /*--------------------- Heading*/
 
 h3 {
@@ -100,7 +98,14 @@ h3 {
     letter-spacing: 1px;
 }
 
-/*---------- Personal Statement*/
+
+/*--------------------- Landing Page*/
+
+.main-page {
+    border: 2px solid purple;
+}
+
+/*-- Personal Statement*/
 
 .personal-info {
     border: 2px solid red;
@@ -118,20 +123,33 @@ h3 {
     border: 2px solid purple;
 }
 
-/*-------------------- About Me*/
+/*----------- About Me*/
 
-/*---------------- General Info*/
+/*------- General Info*/
 
 .rig-image img {
+    position: relative;
+    width: 100%;
+    margin: 0;
     border-radius: 10px;
     /*padding: 0 5px 5px 0;*/
     box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
 }
 
-.right-side img {
+.world-map img {
     position: relative;
     width: 100%;
     margin: 0;
+    border-radius: 10px;
+    /*padding: 0 5px 5px 0;*/
+    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+}
+
+/*------- Resume page Link */
+
+.resume-link {
+    text-align: center;
+    margin: 30px 0;
 }
 
 /*-------------------- Resume--*/
@@ -234,6 +252,13 @@ h3 {
 
 /*----------------- Portfolio--*/
 
+#project-1 {
+    border: 1px solid red;
+}
+
+#project-2 {
+    border: 1px solid black;
+}
 
 /*-------------- Contact Info--*/
 
