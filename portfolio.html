@@ -20,7 +20,7 @@
 <body>
     <header>
     <!--Nav Bar code sourced from https://getbootstrap.com/docs/4.5/components/navbar/-->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#333d51;">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#3fb0ac;">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/gareth-logo.png" width="190" height="80" alt="logo" loading="lazy">
             </a>         
@@ -40,14 +40,19 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 side-bar off-white">
+            <div class="col-md-4 side-bar no gutters off-white">
                 <div class="row">
-                    <div class="col-12">
-                        <h3><i class="fas fa-briefcase"></i> Welcome to my Portfolio</h3>
-                        <p>I'll be posting my projects here as they get completed so remember to come back and see whats new from time to time!</p>
-                        <p>Feel free to get in contact and let me know what you like; or if there is anything you would like me to work on for you.</p>                    
+                    <div class="col-12 portfolio-image">
+                        <img src="assets/images/coding.jpg" alt="">
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 portfolio-text">
+                        <h3><i class="fas fa-briefcase"></i> Welcome to my Portfolio</h3>
+                        <p>I'll be posting my projects here as they get completed so remember to come back and see whats new from time to time!</p>
+                        <p>Feel free to get in touch and let me know what you like; or if there is anything you would like me to work on for you. I am very keen to build up my experience.</p>                    
+                    </div>
+                </div>                
             </div>
             <div class="col-md-8">
                 <div class="row">
@@ -56,35 +61,54 @@
                             <img src="assets/images/e6-copy.jpg" class="card-img-top" alt="Element Six logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Dull Grading App</h5>
-                                    <p class="card-text">I initiated this project and acted as Product Manager for the initial scoping and development of this neat phone app, 
-                                    recently released on the Apple appstore.
+                                    <p class="card-text">I initiated this project, provided the inspiration and acted as Product Manager for the initial scoping and development
+                                     of this neat phone app, recently released on the Apple appstore.
                                     <br><i class="far fa-copyright"></i> Element Six Ltd
                                     </p>
-                                    <a href="https://apps.apple.com/us/app/pdc-bit-dull-grading/id1476024140" target="_blank" class="btn btn-primary">Check it out!</a>
+                                    <div class="card-button">
+                                        <a href="https://apps.apple.com/us/app/pdc-bit-dull-grading/id1476024140" target="_blank" class="btn btn-primary">Check it out!</a>
+                                    </div>                                    
                                 </div>
                         </div>
                     </div>
-                    <div id="project-2" class="col-md-4 container-fluid">
+                    <div id="project-2" class="col-md-4">
                         <div class="card" style="width: 100%;">
                             <img src="assets/images/love-running.png" class="card-img-top" alt="Love Running website">
                                 <div class="card-body">
                                     <h5 class="card-title">Love Running</h5>
-                                    <p class="card-text">Code Institute walkthrough project for a fictional running club in Dublin, completed as part of the course.
+                                    <p class="card-text">Code Institute walkthrough project for a fictional running club in Dublin, completed as part of the course. Fundamental HTML and CSS skills.
                                     <br><i class="far fa-copyright"></i> Code Institute
                                     </p>
-                                    <a href="https://gazzaj.github.io/Code-Institute---Love-Running/" target="_blank" class="btn btn-primary">Check it out!</a>
+                                        <div class="card-button">
+                                            <a href="https://gazzaj.github.io/Code-Institute---Love-Running/" target="_blank" class="btn btn-primary center">Check it out!</a>
+                                        </div>                                    
                                 </div>
                         </div>
                     </div>
                     <div id="project-3" class="col-md-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 100%;">
                             <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Whisky Drop</h5>
-                                    <p class="card-text">Code Institute walkthrough project complated as part of the course.
-                                    <br>Not Original content.
+                                    <p class="card-text">Code Institute walkthrough project complated as part of the User Centric Front End module of the course.
+                                    <br><i class="far fa-copyright"></i> Code Institute
                                     </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <div class="card-button">
+                                            <a href="#" class="btn btn-primary">Check it out!</a>
+                                        </div>                                    
+                                </div>
+                        </div>
+                    </div>
+                    <div id="project-4" class="col-md-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/images/under-construction.png" class="card-img-top" alt="Under construction sign">
+                                <div class="card-body">
+                                    <h5 class="card-title">Moore Action!</h5>
+                                    <p class="card-text">This is a website concept I have started working on for a friends personal coaching service. <br>Come back soon to see the finished site!
+                                    </p>
+                                    <div class="card-button">
+                                        <a href="#" class="btn btn-primary disabled">Under Construction</a>
+                                    </div>                                    
                                 </div>
                         </div>
                     </div>
@@ -98,8 +122,8 @@
         <div id="foot-info" class="row">
             <div class="col-sm-4 text-center contact-details gold-hue">
                 <h5 class="text-uppercase foot-heading">Contact</h5>                
-                <p><i class="fas fa-mobile-alt"></i> +44 7712 449418</p>
-                <p><a class="active-link" href="mailto:johnge71@gmail.com"><i class="fas fa-envelope"></i></a>johnge71@gmail.com</p>
+                <span><i class="fas fa-mobile-alt"></i> +44 7712 449418</span>
+                <span><a class="active-link" href="mailto:johnge71@gmail.com"><i class="fas fa-envelope"></i></a>johnge71@gmail.com</span>
             </div>
     <!--Social Media Links-->    
             <div class="col-sm-4 text-center social-links med-grey">
@@ -128,7 +152,7 @@
                 </p>
             </div>
     <!--Copyright-->        
-            <div id="copyright" class="row container-fluid no-gutters navy-blue">
+            <div id="copyright" class="row container-fluid no-gutters light-teal">
                 <div class="col-12">
                     <p class="copyright text-center"><i class="far fa-copyright"></i> 2020 Copright: Gareth John</p>        
                 </div>

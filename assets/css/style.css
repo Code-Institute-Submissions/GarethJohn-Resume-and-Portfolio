@@ -49,10 +49,6 @@ p {
 
 /*--------------------- Footer*/
 
-#base {
-    padding: 0;
-}
-
 .foot-heading {
     font-family: 'Michroma', sans-serif;
     font-weight: bold;
@@ -76,7 +72,7 @@ p {
 }
 
 .active-link:hover {
-    color: #ef6c33;
+    color: #ef3333;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -105,7 +101,7 @@ h3 {
 }
 
 
-/*--------------------- Landing Page*/
+/*--------------------------------- Landing Page*/
 
 .main-page {
     border: 2px solid purple;
@@ -119,6 +115,21 @@ h3 {
 
 .about-me {
     border: 2px solid blue;
+}
+
+.qualification {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#rgu-mods {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.school {
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .right-side {
@@ -158,15 +169,10 @@ h3 {
     margin: 30px 0;
 }
 
-/*-------------------- Resume--*/
-/*Accordion Style adapted from https://supfort.com/font-awesome-accordion-arrow-css*/
-
-.resume-section {
-    margin-bottom: 20px;
-}
+/*-------------------------------------- Resume--*/
 
 .progress   {
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #333d51;
     position: relative;
     height: 25px;
@@ -174,24 +180,9 @@ h3 {
     margin-bottom: 10px;
 }
 
-.qualification {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-#rgu-mods {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.school {
-    font-size: 16px;
-    font-weight: normal;
-}
-
 .company-info {
     padding: 2px 4px 4px 2px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .work-role {
@@ -204,6 +195,8 @@ h3 {
     font-weight: bold;
 
 }
+
+/*Accordion Style adapted from https://supfort.com/font-awesome-accordion-arrow-css*/
 
 .job-dropdown {
     display: none;
@@ -242,7 +235,7 @@ h3 {
 }
 
 .content {
-    background: #E2E5F6;
+    background-color: #f4f3ea;
     padding: 10px 25px;
     border: 1px solid #A7A7A7;
 
@@ -258,7 +251,7 @@ h3 {
     display:block;
 }
 
-/*----------------- Portfolio--*/
+/*------------------------------------ Portfolio--*/
 
 .side-bar {
     padding: 20px;
@@ -270,6 +263,13 @@ h3 {
     display: block;
     border-radius: 25px;
     margin-top: 20px;
+    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+}
+
+.card {
+    margin: 20px 0;
+    border: 1px solid #333d51;
+    background-color: #dddfd4;
 }
 
 .portfolio-text h3 {
@@ -280,15 +280,11 @@ h3 {
     padding-left: 15px;
 }
 
-#project-1 {
-    border: 1px solid red;
+.card-button {
+    text-align: center;
 }
 
-#project-2 {
-    border: 1px solid black;
-}
-
-/*-------------- Contact Info--*/
+/*---------------------------------- Contact Info--*/
 
 .contact-page {
     margin-bottom: 0;
@@ -346,6 +342,12 @@ h3 {
     background-size: cover;
 }
 
+.contact-me label {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 .contact-form {
     max-width: 500px;
     margin: 40px auto 20px;
@@ -362,7 +364,7 @@ h3 {
     letter-spacing: 2px;
 }
 
-/*-------------- Media Queries--*/
+/*--------------------------------- Media Queries--*/
 
 @media(max-width: 992px) {
 .center-form {
