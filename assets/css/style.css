@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*--------------------- Colors*/
@@ -15,15 +15,19 @@ p {
 }
 
 .gold-hue {
-    background-color: #c7aa4a;    
+    background-color: #fae596;    
 }
 
 .med-grey {
-    background-color: #cbd0d8;
+    background-color: #dddfd4;
  }
 
  .off-white {
     background-color: #f4f3ea;
+ }
+
+ .light-teal {
+     background-color: #3fb0ac;
  }
 
 /*--------------------- Nav bar*/
@@ -40,7 +44,7 @@ p {
 }
 
 .active span {
-    border-bottom: 2px solid #333d51;
+    border-bottom: 2px solid #fae596;
 }
 
 /*--------------------- Footer*/
@@ -185,19 +189,19 @@ h3 {
     font-weight: normal;
 }
 
-.company-box, .container-fluid {
+.company-info {
     padding: 2px 4px 4px 2px;
-    margin: 0;
+    margin-top: 50px;
 }
 
-.dates-box {
-    padding-top: 10px;
+.work-role {
+    margin-bottom: 20px;
 }
 
 .work-dates {
+    padding-top: 5px;
     font-size: 18px;
     font-weight: bold;
-    margin-right: 10px;
 
 }
 
@@ -220,7 +224,7 @@ h3 {
 }
 
 .job-title:hover {
-    background: #c7aa4a;
+    background: #3fb0ac;
 }
 
 .job-title::after {
@@ -255,6 +259,26 @@ h3 {
 }
 
 /*----------------- Portfolio--*/
+
+.side-bar {
+    padding: 20px;
+}
+
+.portfolio-image img {
+    max-height: 100%;
+    min-width: 100%;
+    display: block;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.portfolio-text h3 {
+    margin-bottom: 50px;
+}
+
+.portfolio-text p {
+    padding-left: 15px;
+}
 
 #project-1 {
     border: 1px solid red;
