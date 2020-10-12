@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Cairo&display=swap');
 
+* {
+    outline: 1px solid red;
+}
+
 body {
     font-family: "Cairo", sans-serif;
 }
@@ -32,9 +36,9 @@ p {
 
 /*--------------------- Nav bar*/
 
-.navbar {
+/*.navbar {
     margin-right: -15px;
-}
+}*/
 
 .nav-item {
     font-family: "Michroma", sans-serif;
@@ -49,34 +53,23 @@ p {
 
 /*--------------------- Footer*/
 
-.foot-heading {
-    font-family: 'Michroma', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin: 10px auto 20px;
-}
-
-#foot-info p {
-    margin-top: 15px;
-    font-size: 20px;
-}
-
-.contact-details span {
-    margin: 10px;
-    font-size: 20px;
-}
-
 .active-link {
     font-size: 30px;
     margin: 20px;
 }
 
+.social-link:hover,
 .active-link:hover {
     color: #ef3333;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-link {
+    font-size: 50px;
+    padding: 20px;
 }
 
 .copyright {
@@ -97,6 +90,13 @@ p {
     padding: 30px 0;
     text-align: center;
     text-decoration: underline;
+}
+
+.footer-heading {
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px auto 20px;
 }
 
  /*--------------------------------- Landing Page*/
@@ -138,13 +138,11 @@ p {
     border: 2px solid purple;
 }
 
-/*----------- About Me*/
-
 /*------- General Info*/
 
 .rig-image img {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 95%;
     margin: 0;
     border-radius: 10px;
     /*padding: 0 5px 5px 0;*/
@@ -152,8 +150,8 @@ p {
 }
 
 .world-map img {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 95%;
     margin: 0;
     border-radius: 10px;
     /*padding: 0 5px 5px 0;*/
@@ -279,7 +277,7 @@ p {
 }
 
 .portfolio-text p {
-    padding-left: 15px;
+    padding: 20px 0 20px 15px;
 }
 
 .card-button {
