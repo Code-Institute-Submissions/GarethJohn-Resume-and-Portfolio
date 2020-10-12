@@ -101,19 +101,7 @@ p {
 
  /*--------------------------------- Landing Page*/
 
-.main-page {
-    border: 2px solid purple;
-}
-
 /*-- Personal Statement*/
-
-.personal-info {
-    border: 2px solid red;
-}
-
-.about-me {
-    border: 2px solid blue;
-}
 
 .qualification {
     font-size: 18px;
@@ -176,7 +164,7 @@ p {
     border: 1px solid #333d51;
     position: relative;
     height: 25px;
-    width: 90%;
+    width: 95%;
     margin-bottom: 10px;
 }
 
