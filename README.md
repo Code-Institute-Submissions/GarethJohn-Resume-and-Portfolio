@@ -179,15 +179,19 @@ ______
 
 
 - While building the navbar toggler, the menu items would only appear on the right.
-  - The solution was provided on stackoverflow ([https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393](https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393))
+  - The solution was provided on stackoverflow ([https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393])([https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393])
 
 
 - My navbar had a small amount of whitespace on the right-hand side.
-  - The solution to remove this was again found on stackoverflow: ([https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687](https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687))
+  - The solution to remove this was again found on stackoverflow: ([https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687])([https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687])
 
+
+- When I initially created cards for my portfolio projects each one was sized dependent on the content, which was undesirable. I found a solution to this here: ([https://www.codeply.com/go/jbcgzs2Nzq])  
+
+- I used the code listed on this site to push the card button down to the bottom of the card. ([https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card])
 
 - Throughout the build I had an issue with there being whitespace down the right hand side of my pages. The issue wasn't immediately obvious, until I created boxes around every element; which highlighted some divs were wider than the remainder of the page.
- This was a useful method to visualise the interaction of all page elements.
+ This was a useful method to visualise the interaction of all page elements.([https://stackoverflow.com/questions/46630191/white-space-on-right-side-of-page/46630298])
 
 ______
 
