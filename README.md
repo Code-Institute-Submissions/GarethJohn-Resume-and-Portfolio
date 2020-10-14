@@ -108,6 +108,7 @@ Intergrations
 - Google Fonts
 - JQuery
 - The project uses JQuery to simplify DOM manipulation.
+- Hover.css for button hover effects
 
 Version Control, storage and hosting
 
@@ -241,7 +242,7 @@ ______
 The photos used in this site were obtained from:
 
 - Image of the Rig – Was taken by me on a visit to West Texas in 2018
-- Pexels
+- The remaining images were downloaded from the Pexels App.
 
 ### **Code Snippets**
 
@@ -250,6 +251,7 @@ The photos used in this site were obtained from:
   - The solution was provided on stackoverflow ([https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393](https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393))
 - My navbar had a small amount of whitespace on the right-hand side.
   - The solution to remove this was again found on stackoverflow: ([https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687](https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687))
+- Image carousel on the landing page was copied from Bootstrap 4.
 - **Progress bars**
 The progress bars used in resume.html were taken from Bootstrap 4
 - **Accordion Feature**
