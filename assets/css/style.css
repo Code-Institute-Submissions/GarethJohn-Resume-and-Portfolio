@@ -103,37 +103,28 @@ p {
     text-align: center;
 }
 
-.btn-lg {
+.active-btn {
     border-radius: 20px;
     background-color: #ffc107;
     color: #333d51;
     font-weight: bold;    
 }
 
-.btn-lg:visited {
-    border-radius: 20px;
-    background-color: #ffc107;
-    color: #333d51;
-    font-weight: bold;    
-}
-
-.btn-lg:focus {
-    background-color: #fff;
-    border: 2px solid #3fb0ac;
-    color: #3fb0ac;
-}
-
-.btn-lg:hover {
+.active-btn:hover {
     background-color: #3fb0ac;
     border: 2px solid #fff;
     color: #fff;
 }
 
-.btn-lg:active {
+.active-btn:active {
     border-radius: 20px;
     background-color: #ffc107;
     color: #333d51;
     font-weight: bold; 
+}
+
+.disabled {
+    border-radius: 20px;
 }
 
 /*--------------------------------- Landing Page*/
@@ -155,32 +146,11 @@ p {
     font-weight: normal;
 }
 
-.right-side {
-    border: 2px solid green;
-}
+/*------- Carousel-----*/
 
-.first-half {
-    border: 2px solid purple;
-}
-
-/*------- General Info*/
-
-.rig-image img {
-    position: absolute;
-    width: 95%;
-    margin: 0;
-    border-radius: 10px;
-    /*padding: 0 5px 5px 0;*/
-    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
-}
-
-.world-map img {
-    position: absolute;
-    width: 95%;
-    margin: 0;
-    border-radius: 10px;
-    /*padding: 0 5px 5px 0;*/
-    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
 
 .resume-link {
