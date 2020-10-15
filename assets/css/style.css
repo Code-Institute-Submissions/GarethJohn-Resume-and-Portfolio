@@ -10,6 +10,10 @@ p {
     font-size: 20px;
 }
 
+.landing-page *{
+ outline: 1px solid red;
+}
+
 /*--------------------- Colors*/
 
 .navy-blue {
@@ -133,10 +137,14 @@ p {
 
 /*--------------------------------- Landing Page*/
 
-/*-- Personal Statement*/
-
+.hire-me
 .international {
-    color: #f4f3ea;
+    padding-top: 80px;
+}
+
+.image-container img {
+    width: 100%;
+}
 }
 
 .qualification {
@@ -154,11 +162,16 @@ p {
     font-weight: normal;
 }
 
-/*------- images-----*/
-
-.images img {
-    width: 100%;
+.resume-link {
+    color: #f4f3ea;
+    padding-bottom: 20px;
 }
+
+.resume-link h4 {
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
 
 /*-------------------------------------- Resume--*/
 
