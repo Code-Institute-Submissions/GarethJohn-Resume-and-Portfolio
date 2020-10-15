@@ -10,9 +10,9 @@ p {
     font-size: 20px;
 }
 
-.landing-page *{
+/*.landing-page *{
  outline: 1px solid red;
-}
+}*/
 
 /*--------------------- Colors*/
 
@@ -115,7 +115,7 @@ p {
     border-radius: 20px;
     background-color: #ffc107;
     color: #333d51;
-    font-weight: bold;    
+    font-weight: bold;    deg
 }
 
 .active-btn:hover {
@@ -137,14 +137,20 @@ p {
 
 /*--------------------------------- Landing Page*/
 
-.hire-me
-.international {
-    padding-top: 80px;
-}
-
 .image-container img {
+    max-width: 100%;
     width: 100%;
 }
+
+.international {
+    background-color: #181739;
+    color: #f4f3ea;
+}
+
+/*.education {
+    background: rgb(59,43,191);
+    background: linear-gradient(135deg, rgba(59,43,191,1) 0%, rgba(122,15,143,1) 100%);
+    color: #f4f3ea;*/
 }
 
 .qualification {
