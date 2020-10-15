@@ -32,6 +32,10 @@ p {
      background-color: #3fb0ac;
  }
 
+ .dark-blue {
+     background-color: #181739;
+ }
+
 /*--------------------- Nav bar*/
 
 /*.navbar {
@@ -131,6 +135,10 @@ p {
 
 /*-- Personal Statement*/
 
+.international {
+    color: #f4f3ea;
+}
+
 .qualification {
     font-size: 18px;
     font-weight: bold;
@@ -146,16 +154,10 @@ p {
     font-weight: normal;
 }
 
-/*------- Carousel-----*/
+/*------- images-----*/
 
-.carousel-inner img {
+.images img {
     width: 100%;
-    height: 100%;
-}
-
-.resume-link {
-    padding: 20px 0;
-    color: #f4f3ea;
 }
 
 /*-------------------------------------- Resume--*/
