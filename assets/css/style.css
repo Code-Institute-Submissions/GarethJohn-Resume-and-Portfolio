@@ -151,7 +151,7 @@ a.hyperlink:visited {
 
 /*-----Image styling idea copied from https://stackoverflow.com/questions/34291857/css-image-to-full-width-and-center-vertically*/
 .image-container1 {
-    background-image: url("/assets/images/oil-rig.png");
+    background-image: url("../images/oil-rig.png");
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -162,7 +162,7 @@ a.hyperlink:visited {
 }
 
 .image-container2 {
-    background-image: url("/assets/images/pixel-map.png");
+    background-image: url("../images/pixel-map.png");
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -173,7 +173,7 @@ a.hyperlink:visited {
 }
 
 .image-container3 {
-    background-image: url("/assets/images/code-blur.png");
+    background-image: url("../images/codeblur.png");
     background-size: cover;
     background-position: center;
     height: 750px;
