@@ -156,6 +156,9 @@ a.hyperlink:visited {
     background-position: center;
     height: 750px;
     width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
 }
 
 .image-container2 {
@@ -164,6 +167,9 @@ a.hyperlink:visited {
     background-position: center;
     height: 750px;
     width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .image-container3 {
@@ -172,6 +178,9 @@ a.hyperlink:visited {
     background-position: center;
     height: 750px;
     width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .international {
@@ -388,6 +397,9 @@ a.hyperlink:visited {
     background: url("../images/bw-rig.jpg") no-repeat center center;
     padding-bottom: 30px;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .contact-me label {
