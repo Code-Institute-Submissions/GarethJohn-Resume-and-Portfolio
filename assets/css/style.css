@@ -10,10 +10,6 @@ p {
     font-size: 20px;
 }
 
-/*.landing-page *{
- outline: 1px solid red;
-}*/
-
 /*--------------------- Colors*/
 
 .navy-blue {
@@ -64,6 +60,7 @@ p {
     margin: 20px;
 }
 
+/*-----link coloration copied from Code Institute UCD Resume--*/
 .social-link:hover,
 .active-link:hover {
     color: #ef3333;
@@ -94,7 +91,6 @@ p {
     letter-spacing: 2px;
     padding: 30px 0;
     text-align: center;
-    text-decoration: underline;
 }
 
 .footer-heading {
@@ -104,7 +100,7 @@ p {
     margin: 10px auto 20px;
 }
 
- /*--------------------------------- Button*/
+ /*--------------------------------- Buttons*/
 
 .resume-link,
 .button {
@@ -115,7 +111,7 @@ p {
     border-radius: 20px;
     background-color: #ffc107;
     color: #333d51;
-    font-weight: bold;    deg
+    font-weight: bold;
 }
 
 .active-btn:hover {
@@ -135,22 +131,52 @@ p {
     border-radius: 20px;
 }
 
+/*--------------------------------- Hyperlinks*/
+
+a.hyperlink {
+    text-decoration: underline;
+    color: #007bff;    
+}
+
+a.hyperlink:visited {
+    text-decoration: underline;
+    color: #660194;
+}
+
 /*--------------------------------- Landing Page*/
 
-.image-container img {
-    max-width: 100%;
+.personal-statement{
+    padding-top: 100px;    
+}
+
+/*-----Image styling idea copied from https://stackoverflow.com/questions/34291857/css-image-to-full-width-and-center-vertically*/
+.image-container1 {
+    background-image: url("/assets/images/oil-rig.png");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+}
+
+.image-container2 {
+    background-image: url("/assets/images/pixel-map.png");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+}
+
+.image-container3 {
+    background-image: url("/assets/images/code-blur.png");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
     width: 100%;
 }
 
 .international {
     background-color: #181739;
     color: #f4f3ea;
-}
-
-/*.education {
-    background: rgb(59,43,191);
-    background: linear-gradient(135deg, rgba(59,43,191,1) 0%, rgba(122,15,143,1) 100%);
-    color: #f4f3ea;*/
 }
 
 .qualification {
@@ -398,5 +424,15 @@ p {
 .contact-table .key p, 
 .contact-table .value p {
     font-size: 16px;
+}
+
+.personal-statement {
+    padding-top: 50px;    
+}
+}
+
+@media(max-width:568px) {
+.personal-statement {
+    padding-top: 25px;  
 }
 }
