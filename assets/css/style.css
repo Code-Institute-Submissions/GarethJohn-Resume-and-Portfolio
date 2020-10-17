@@ -388,7 +388,7 @@ a.hyperlink:visited {
 
 .contact-table .key, 
 .contact-table .value {
-    display: inline-block;
+    display: block;
 }
 
 .contact-table .key p, 
@@ -409,7 +409,7 @@ a.hyperlink:visited {
 
 .contact-table .value {
     position: relative;
-    width: 60%;
+    width: 90%;
 }
 
 .contact-me {    
