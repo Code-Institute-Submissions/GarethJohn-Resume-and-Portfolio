@@ -1,9 +1,11 @@
-[# **Gareth John – Professional Portfolio and Resume**](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
+# [**Gareth John – Professional Portfolio and Resume**](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
 
 The purpose of this website is to create an online presence for an individual (myself in this case) to highlight skills, experience, work history and to showcase projects to potential employers. This must be achieved in a visually appealing UX, which enables the user to easily navigate and locate the information irrespective of the device they are using.
 The ultimate aim is to assist the individual to secure future employment opportunities as a software developer, by showcasing acquired skills of the commomn technologies used.
 
 [The live website can be viewed here!](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
+
+![Am I responsive images](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/am-i-responsive.png "Am I Responsive")
 
 Table of contents
 
@@ -66,8 +68,8 @@ The navbar will also incorporate a link to a downloadable version of my CV.
 A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.
 
 The original design concepts/wireframes for each gage can be viewed below:
-- Home Page
-  - Alternate Home Page
+- [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Landing%20Page%20Design.png)
+  - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Alternate%20Landing%20Page.png)
 - Experience Page
   - Alternate Experience Page
 - Portfolio Page
