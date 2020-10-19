@@ -399,6 +399,11 @@ li.school {
     padding-left: 20px;
 }
 
+.location iframe {
+height:450px;
+width: 100%;
+}
+
 .contact-table {
     padding-bottom: 20px;
     display: block;
