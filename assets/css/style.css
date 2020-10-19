@@ -235,7 +235,10 @@ a.hyperlink:visited {
 
 .school {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: normal;    
+}
+li.school {
+    list-style: none;
 }
 
 .resume-link {
