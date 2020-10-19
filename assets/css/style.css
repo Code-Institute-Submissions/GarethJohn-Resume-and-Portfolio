@@ -49,6 +49,10 @@ p {
     text-align: right;    
 }
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
 .active span {
     border-bottom: 2px solid #fae596;
 }
@@ -68,6 +72,11 @@ p {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-details p, 
+.cv-link p {
+    padding: 0 10px;
 }
 
 .social-link {
@@ -99,6 +108,13 @@ p {
     font-weight: bold;
     letter-spacing: 2px;
     margin: 10px auto 20px;
+}
+
+.sub-heading {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333d51;
+    text-transform: uppercase;
 }
 
  /*--------------------------------- Buttons*/
@@ -421,15 +437,36 @@ a.hyperlink:visited {
     -o-background-size: cover;
 }
 
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+}
+
+.contact-heading, 
+.sub-heading, 
+.contact-divider {
+    position: relative;
+    z-index: 1;
+}
+
 .contact-me label {
+    position: relative;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .contact-form {
+    position: relative;
     max-width: 500px;
     margin: 40px auto 20px;
+    z-index: 1;
 }
 
 /*--------------------------------- Media Queries--*/
