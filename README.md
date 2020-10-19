@@ -70,10 +70,11 @@ A Footer section will provide additional information with links to social media 
 The original design concepts/wireframes for each gage can be viewed below:
 - [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Landing%20Page%20Design.png)
   - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Alternate%20Landing%20Page.png)
-- Experience Page
-  - Alternate Experience Page
-- Portfolio Page
-- Contact Page
+- [Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Preferred%20Experience%20Page.png)
+  - [Alternate Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Alternate%20Experience%20Page.png)
+- [Portfolio Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Portfolio.png)
+- [Contact Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Contact.png) 
+In some cases I created multiple design concepts to reflect my dfifferent design ideas.
 
 #### **Surface**
 
@@ -128,8 +129,8 @@ This static website has been built using the following core technologies:
 
 Core coding languages
 
-- ![alt text][logo]: https://www.google.co.uk/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F38%2FHTML5_Badge.svg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHTML5_Badge.svg&tbnid=P76qCIv4K8Y0iM&vet=12ahUKEwjOz-qq3b7sAhWQ2uAKHe3rCS0QMygAegUIARCAAg..i&docid=zE9j2C1bwI5DQM&w=800&h=800&q=html5&hl=en&safe=strict&ved=2ahUKEwjOz-qq3b7sAhWQ2uAKHe3rCS0QMygAegUIARCAAg "HTML 5"
-- CSS3
+- ![HTML 5](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/html5-logo.png "HTML5")
+- ![CSS3](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/css3-logo.png "CSS3")
 
 Intergrations
 
