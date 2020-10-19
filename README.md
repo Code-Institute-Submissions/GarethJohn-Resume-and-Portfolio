@@ -1,8 +1,9 @@
-# **Gareth John – Professional Portfolio and Resume**
+[# **Gareth John – Professional Portfolio and Resume**](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
 
 The purpose of this website is to create an online presence for an individual (myself in this case) to highlight skills, experience, work history and to showcase projects to potential employers. This must be achieved in a visually appealing UX, which enables the user to easily navigate and locate the information irrespective of the device they are using.
 The ultimate aim is to assist the individual to secure future employment opportunities as a software developer, by showcasing acquired skills of the commomn technologies used.
 
+[The live website can be viewed here!](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
 
 Table of contents
 
@@ -62,11 +63,20 @@ The website will comprise four distinct pages navigable through the 'navbar' men
 - Home | Experience | Portfolio | Contact
 The navbar will also incorporate a link to a downloadable version of my CV.
 
-A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.  
+A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.
+
+The original design concepts/wireframes for each gage can be viewed below:
+- Home Page
+  - Alternate Home Page
+- Experience Page
+  - Alternate Experience Page
+- Portfolio Page
+- Contact Page
 
 #### **Surface**
-I had intended to use a darker colour scheme for this website. However as the build progressed it just didn't seem to suit; nor did it match the images I had selected. Of all aspects of this build I will freely admit this was the area I struggled with the most.  
-In the end I sought inspiration from two websites:
+
+##### **Colour Scheme**
+I had intended to use a darker colour scheme for this website. However as the build progressed it just didn't seem to suit; nor did it match the images I had selected. Of all aspects of this build I will freely admit this was the area I struggled with the most.In the end I sought inspiration from two websites:
 - [10 Gorgeous Color Schemes for Websites](https://www.shutterstock.com/blog/10-gorgeous-color-schemes-for-websites?kw=&gclsrc=aw.ds&gclid=Cj0KCQjw2or8BRCNARIsAC_ppyaGHtDUv5oNSHP0th9gb8N6VBiGFAq-pYu1cFQFW5szceQETvoAnKgaAhwPEALw_wcB)
 - [10 Trending 2020Website Color Schemes](https://www.quicksprout.com/trending-website-color-schemes/)
 
@@ -86,6 +96,7 @@ Given the intended purpose of this site is to convey my skills, experience and w
   
 The only section where I this rule doesn't apply is the 'PORTFOLIO' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
 I have reused the image of the rig for the contact page as it represents teamwork and links well with the heading "_How can we work together?_"
+
 ______
 
 ## **Features**
@@ -201,15 +212,14 @@ ______
 
 ## **Deployment**
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### **GitHub Pages**
+The project was deployed to GitHub Pages using the following steps...
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- Logging in to GitHub and locating the GitHub Repository
+- Clicking the "Settings" Button in the menu tabs.
+- Within the Settings page scrolling down until the "GitHub Pages" section was located.
+- Under the "Source" heading there is a dropdown menu. The "Master Branch" was selected.
+- The newly created website address is now displayed in the green box at the top of the Github Pages section.
 
 ______
 
@@ -221,7 +231,7 @@ I have attempted to work independently as much as possible while building this w
 - [Balsamiq](https://balsamiq.com/wireframes/) – Wireframing Tool
 - [Free Logo Maker](https://logomakr.com/) - Simple drawing tool used to create a brand logo
 - Code Institute course material and Walkthrough projects
-- Google DevTools - for trouble shooting and 
+- Google DevTools - for trouble shooting and first pass testing
 - [StackOverFlow](https://stackoverflow.com/) – Web based coding 
 - [CSS Tricks](https://css-tricks.com/) – Styling tips like https://css-tricks.com/styling-underlines-web/
 - [W3Schools](https://www.w3schools.com/) – General coding resource
@@ -246,12 +256,13 @@ ______
 The photos used in this site were obtained from:
 
 - Image of the Rig – Was taken by me on a visit to West Texas in 2018
-- The pixelated map was created in
+- The pixelated map was created in [amCharts](https://pixelmap.amcharts.com/)
 - E6 Company logo was copied from [LinkedIn](https://www.linkedin.com/company/element-six/)
-- The remaining images were downloaded from the Pexels App:
- - Blurred Code
- - Laptop
+- The remaining images were downloaded from the following sites:
+ - The image cointaining blurred code was copied from [Pexels](https://www.pexels.com/photo/office-working-app-computer-97077/)
+ - The Laptop imaged used in the portfolio page was copied from [Pixabay](https://pixabay.com/photos/coding-programming-working-macbook-924920/)
  - Under Construction from [Pixabay](https://pixabay.com/illustrations/under-construction-construction-sign-2408062/)
+ - The portfolio project images were screenshots taken after completion of the respective walkthrough projects.
 
 ### **Code Snippets**
 
@@ -266,7 +277,6 @@ The progress bars used in resume.html were taken from [Bootstrap 4 - Progress](h
 I copied and subsequently adapted the accordion feature fromthe tutorial provided on this webpage[**font-awesome-accordion-arrow-css**](https://supfort.com/font-awesome-accordion-arrow-css)
   - The reason for not using the standard Bootstrap accordion was that I wanted to visually indicate there was additional content hidden within each role.
 - The code to achieve better looking bullets was taken from [Fontawsome](https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list)
-- I copied a small piece of CSS code from Stack Overflow to help me equalise the image size on my portfolio cards.
 
 ### **Acknowledgements**
 
@@ -283,3 +293,5 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
   ... the information they presented was regarding preparation for MS-1 projects was invaluable and helped calm the nerves somewhat before heading into the milestone project.
 - Thanks to everyone at the Code Institute for helping to make this such an enjoyable and rewarding experience.
 ______
+### **Technical Support**
+If you encounter any issues with this website, or require any support please email the developer [johnge71@gmail.com](mailto:johnge71@gmail.com)
