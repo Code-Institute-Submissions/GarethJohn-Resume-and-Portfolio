@@ -134,22 +134,22 @@ Core coding languages
 
 Intergrations
 
-- Bootstrap 4
-- Font Awesome
-- Google Fonts
+- ![Bootstrap 4](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/bootstrap-logo.png)
+- ![Font Awesome](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/fontawesome-logo.png)
+- ![Google Fonts](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/googlefonts-logo.png)
 - JQuery
 - The project uses JQuery to simplify DOM manipulation.
 - Hover.css for button hover effects
 
 Version Control, storage and hosting
 
-- Gitpod
-- Git
-- GitHub
+- ![Gitpod](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/gitpod-logo.png "Gitpod logo")
+- ![Git](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/git-logo.png "git logo")
+- ![GitHub](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/github-logo.png "Github logo")
 
 Other
 
-- Word to Markdown Converter
+- Dillinger
 ______
 
 ## **Testing**
