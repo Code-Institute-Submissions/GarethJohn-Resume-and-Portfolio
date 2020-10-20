@@ -7,7 +7,11 @@ The ultimate aim is to assist the individual in securing future employment oppor
 
 ![Am I responsive images](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/am-i-responsive.png "Am I Responsive")
 
-Table of contents
+## Table of contents
+1. [User Experience](#user-experience)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
 
 ______
 
