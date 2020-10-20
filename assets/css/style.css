@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Cairo&display=swap');
 
 body {
@@ -182,7 +189,8 @@ a.hyperlink:visited {
 
 .portrait {
     border-radius: 50px;
-    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
     margin-bottom: 30px;
     height: auto;
     max-width: 90%;
@@ -318,6 +326,8 @@ li.school {
     color: #FFF;
     letter-spacing: 2px;
     font-weight: bold;
+    -webkit-transition: ease .5s;
+    -o-transition: ease .5s;
     transition: ease .5s;
 	position: relative;
 }
@@ -370,7 +380,8 @@ li.school {
     display: block;
     border-radius: 25px;
     margin-top: 20px;
-    box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
 }
 
 .card {
@@ -384,8 +395,13 @@ li.school {
 }
 
 .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .portfolio-text p {
