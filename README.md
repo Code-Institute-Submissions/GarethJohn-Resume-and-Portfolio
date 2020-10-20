@@ -9,21 +9,28 @@ The ultimate aim is to assist the individual in securing future employment oppor
 
 ## Table of contents
 1. [User Experience](#user-experience)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
-
+2. [Features](#features)
+    - [User Stories](#stories)
+    - [The 5 Planes](#planes)
+3. [Technologies Used](#technologies)
+4. [Testing](#testing)
+5. [Bugs & Issues](#bugs)
+6. [Deployment](#deployment)
+7. [Resources](#resources)
+8. [Credits](#credits)
+    - [Acknowledgements](#acknowledgements)
+9. [Technical Support](#technical)
 ______
 
 ## **User Experience (UX)** <a name="user-experience"></a>
 
 My aim is to provide a simple yet intuitive user experience, which requires the minimum amount of scrolling to locate information. I see this as particularly important on mobile screens.
 
-For this reason I had elected to 
+For this reason, I had elected to 
 - maintain a fixed menu bar at the top of the screen.
 - limit the amount of detail in the Work History section 
 
-### **User Stories**
+### **User Stories** <a name="stories"></a>
 
 1. **_As a_** job seeker, **_I need to_** promote my skills and experience in an efficient and visually appealing way; **_in order to_** increase my chances of being interviewed and ultimately employed.
 
@@ -33,27 +40,30 @@ For this reason I had elected to
 
 1. **_As a_** Recruiter, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** increase my chances of successfully placing the candidate with my portfolio of clients.
 
+### **The 5 Planes of UX** <a name="planes"></a>
+The five planes provide a framework for discussing user experience.
+
 #### **Strategy**  
-As previously stated, the aim of this project is 3 fold:
+As previously stated, the aim of this project is 3-fold:
  - To create an online presence
  - To highlight skills, and work experience 
  - To showcase projects  
- ... all with the aim of increasing the individuals employability
+ ... all with the aim of increasing the individual's employability
 
 It is also important that potential employers, recruiters or clients can easily make contact with the individual. This is achieved through the use of:
 - email links
 - social media links
 - contact form
  
-My intention is to provide some basic general information on the landing page sufficient to generate some curiosity; then to  make the key information easily accessible through an intuitive and repeating UX design. The intention is to provide multiple routes top the skills, experience and work history as well as multiple links to the downloadable CV.
+My intention is to provide some basic general information on the landing page sufficient to generate some curiosity; then to make the key information easily accessible through an intuitive and repeating UX design. The intention is to provide multiple routes top the skills, experience and work history as well as multiple links to the downloadable CV.
 - Multiple links to Experience section from Landing page.
-- Consice listing of skills
+- Concise listing of skills
 - Abridged version of work history
 - Multiple links to a downloadable CV
 - Portfolio page with Project summaries and links to the deployed pages
 
 #### **Scope**  
-I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical if I encounter any issues during the build and need to troubleshoot on the fly. I am aiming for a decent Minimal Viable Product.
+I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical if I encounter any issues during the build and need to troubleshoot on the fly. I am aiming for a decent Minimum Viable Product.
 In the planning for the website I created preferred and alternate design options; preferred being the more achievable option.
 I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become useless on mobile. Thus I opted for the current, simpler stacked configuration.
 
@@ -92,7 +102,7 @@ I had intended to use a darker colour scheme for this website. However as the bu
 I decided on the "Scholar" colour scheme as it fitted the theme of the website and made some use of a darker blue, which had been my original intention. I had added the teal colour to provide another slightly brighter colour for contrast.
 On reflection I am pleased with the result; it isn't too playful or childish, yet isn't cold and boring. The colours provide a decent amount of contrast.
 
-I wanted the look and functionality of the hyperlinks to be intuitive so read a little about achieving the right asthetics
+I wanted the look and functionality of the hyperlinks to be intuitive so read a little about achieving the right aesthetics
 - [WebFX - Designing and styling hyperlinks](https://www.webfx.com/blog/web-design/designing-hyperlinks-tips-and-best-practices/)
 
 ##### **Typography**  
@@ -108,7 +118,7 @@ I have reused the image of the rig for the contact page as it represents teamwor
 
 ______
 
-## **Features**
+## **Features** <a name="features"></a>
 What follows is a list of the main features incorporated into the website, and a short list of upgrades which could be applied once my knowledge of other technologies like JavaScript has increased.
 
 ### **Existing Features**
@@ -131,7 +141,7 @@ What follows is a list of the main features incorporated into the website, and a
 
 ______
 
-## **Technologies Used**  
+## **Technologies Used** <a name="technologies"></a>  
 
 This static website has been built using the following core technologies:
 
@@ -159,7 +169,7 @@ Other
 - Dillinger is an online markdown editor.
 ______
 
-## **Testing**
+## **Testing** <a name="testing"></a>
 
 The philosophy I have used throughout this build is to build, review and test each part of the website as I progressed, relying heavily on Google Dev tools throughout for first pass testing.
 
@@ -181,7 +191,7 @@ The philosophy I have used throughout this build is to build, review and test ea
 - Testing of the 'required' attribute which ensures all contact form field get filled in before the data can be sent.
 - I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered _e.g_ [_name@something.com_](mailto:name@something.com)
 - Accessibility Test
-  - Highlighted potential issue with the choice text color on the navbar, hyperlinks and Copyright section
+  - Highlighted potential issue with the choice text colour on the navbar, hyperlinks and Copyright section
     - Navbar text changed to a darker colour
     - Hyperlink colour changed to a darker blue for increased contrast
     - Copyright text changed to a darker colour to provide contrast.
@@ -201,7 +211,7 @@ Returned several errors related to the use of vendor extensions. I have chosen t
 
 ______
 
-## **Bugs and Issues**
+## **Bugs and Issues** <a name="bugs"></a>
 
 - Initially the collapsed Menu items would not appear and disappear when clicking the 'burger'.
   - The solution to this was found in the [Slack community](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1592942356085000?thread_ts=1592936056.080800&cid=C7J2ZAVHB); and was simply a case of relocating one of the bootstrap JS CDN links to the 'head'
@@ -219,13 +229,13 @@ ______
 
 - I used the code listed on this site to push the card button down to the bottom of the card. [Stack Overflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 
-- Throughout the build I had an issue with there being whitespace down the right hand side of my pages. The issue wasn't immediately obvious, until I created boxes around every element; which highlighted some divs were wider than the remainder of the page.
+- Throughout the build I had an issue with there being whitespace down the right-hand side of my pages. The issue wasn't immediately obvious, until I created boxes around every element; which highlighted some divs were wider than the remainder of the page.
  This was a useful method to visualise the interaction of all page elements. [Stack Overflow](https://stackoverflow.com/questions/46630191/white-space-on-right-side-of-page/46630298)
 
 - I struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "image-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). Equalising the image height might be something which I add to the "Features left to implement" section but realise there are compromises in play here.
 ______
 
-## **Deployment**
+## **Deployment** <a name="deployment"></a>
 
 ### **GitHub Pages**
 The project was deployed to GitHub Pages using the following steps...
@@ -239,10 +249,10 @@ The project was deployed to GitHub Pages using the following steps...
 - There is no difference between the developed version and that deployed on Git Hub Pages
 ______
 
-## **Resources**
+## **Resources** <a name="resources"></a>
 
-I have attempted to work independently as much as possible while building this website, choosing to solve my own issues, using web resources wherever possible. Thus my main resource throughout this project was the trusty Google search.
- Aside from Google I have made use of the following resources:-
+I have attempted to work independently as much as possible while building this website, choosing to solve my own issues, using web resources wherever possible. Thus, my main resource throughout this project was the trusty Google search.
+ Aside from Google I have made use of the following resources: -
 
 - [Balsamiq](https://balsamiq.com/wireframes/) – Wireframing Tool
 - [Free Logo Maker](https://logomakr.com/) - Simple drawing tool used to create a brand logo
@@ -253,7 +263,7 @@ I have attempted to work independently as much as possible while building this w
 - [W3Schools](https://www.w3schools.com/) – General coding resource
 - [Pexels](https://www.pexels.com/) – Licence free image repository
 - [TinyPNG](https://tinypng.com/) – Application for compressing image files
-- [Color Picker](https://htmlcolorcodes.com/color-picker/) – HTML and CSS color codes
+- [Color Picker](https://htmlcolorcodes.com/color-picker/) – HTML and CSS colour codes
 - [amCharts](https://pixelmap.amcharts.com/) - Pixelated map generator tool
 - Shutterstock: 10 Gorgeous Color Schemes for Websites
 - 10 Trending 2020 Website Color Schemes
@@ -261,7 +271,7 @@ I have attempted to work independently as much as possible while building this w
 
 ______
 
-## **Credits**
+## **Credits** <a name="credits"></a>
 
 ### **Content**
 
@@ -295,7 +305,7 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
 - The code to achieve better looking bullets was taken from [Fontawsome](https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list)
 - The project cards were also adapted from [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/card/) code.
 
-### **Acknowledgements**
+### **Acknowledgements** <a name="acknowledgements"></a>
 
 - The idea for this project originally came from a basic Resume exercise to illustrate ordered and unorder I had worked on while using the Mimo app&#39; (https://getmimo.com/playgrounds/812454) prior to starting the Full Stack Software Development course at the Code Institute. I subsequently expanded the basic exercise to create an online resume.
 
@@ -311,5 +321,5 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
 - Thanks to everyone at the Code Institute for helping to make this such an enjoyable and rewarding experience.
 - I would also like to thank Luke Walters-Leatherbarrow at Learning People who provided moral support through the initial few week of my transition into the Coding world.
 ______
-### **Technical Support**
+### **Technical Support** <a name="technical"></a>
 If you encounter any issues with this website, or require any support please email the developer [johnge71@gmail.com](mailto:johnge71@gmail.com)
