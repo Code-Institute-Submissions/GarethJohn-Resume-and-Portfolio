@@ -133,7 +133,7 @@ This static website has been built using the following core technologies:
 
 Core coding languages
 
-- ![HTML 5](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/html5-logo.png "HTML5")
+- ![HTML 5](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/html-5-logo.png "HTML5")
 - ![CSS3](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/css3-logo.png "CSS3")
 
 Integrations
@@ -177,8 +177,12 @@ The philosophy I have used throughout this build is to build, review and test ea
 - Testing of the 'required' attribute which ensures all contact form field get filled in before the data can be sent.
 - I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered _e.g_ [_name@something.com_](mailto:name@something.com)
 - Accessibility Test
-  - Highlighted potential issue with the choice text color on the navbar
-  - Highlighted an issue with the contrast of the text with links.
+  - Highlighted potential issue with the choice text color on the navbar, hyperlinks and Copyright section
+    - Navbar text changed to a darker colour
+    - Hyperlink colour changed to a darker blue for increased contrast
+    - Copyright text changed to a darker colour to provide contrast.
+
+
 - HTML Validation
 Each page has been checked and all errors have been corrected.
 - CSS Validation
@@ -228,6 +232,7 @@ The project was deployed to GitHub Pages using the following steps...
 - Under the "Source" heading there is a dropdown menu. The "Master Branch" was selected.
 - The newly created website address is now displayed in the green box at the top of the Github Pages section.
 
+- There is no difference between the developed version and that deployed on Git Hub Pages
 ______
 
 ## **Resources**
