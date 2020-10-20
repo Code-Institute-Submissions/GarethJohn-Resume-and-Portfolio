@@ -182,11 +182,12 @@ The philosophy I have used throughout this build is to build, review and test ea
   - HP Laptop with attached monitor
 - I tested the functionality of the 'accordion' feature on the Experience page on these devices to ensure aesthetics and functionality were maintained.
   - This helped me make some changes to maintain responsiveness. 
-- Repeatedly tested all links to ensure they function and correctly open up the required sites in new browser tabs.
+- Repeatedly tested all hyperlinks to ensure they function and correctly open up the required sites in new browser tabs.
 - Tested Social Media icon to ensure they also link to the correct sites and open in new browser tabs.
 - I have tested email links to ensure they open up the default email application and insert the email address.
   - Works on Samsung S9 – opening Gmail
   - Laptop – opening Outlook
+- I have tested the Portfolio Project card links on laptop and Samsung Galaxy S9 and they correctly opn in new browser tabs.
 - Tested the contact form on the Contact page to ensure correct functionality. This was linked to the CI Form dump page so I could verify the data sent.
 - Testing of the 'required' attribute which ensures all contact form field get filled in before the data can be sent.
 - I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered _e.g_ [_name@something.com_](mailto:name@something.com)
@@ -202,12 +203,12 @@ Each page has been checked and all errors have been corrected.
 - CSS Validation
 Returned several errors related to the use of vendor extensions. I have chosen to accept these errors based on the fact they increase compatibility. [Stack Overflow](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
 
-- CSS Auto Prefixer
-- Mobile Friendly
-- Website speed test where it passed in all but Security
+- [CSS Auto Prefixer](https://autoprefixer.github.io/) - CSS file checked 
+- Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
+- [Website speed test](https://www.webpagetest.org/result/201020_DiS2_d82b833e59172a62a58b4c1a1ccb5856/) where it passed in all but Security and Cache static content.
 - Spelling checked by copying and pasting the text into word.
 - I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete.
-- I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20.
+- I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
 
 ______
 
@@ -232,7 +233,7 @@ ______
 - Throughout the build I had an issue with there being whitespace down the right-hand side of my pages. The issue wasn't immediately obvious, until I created boxes around every element; which highlighted some divs were wider than the remainder of the page.
  This was a useful method to visualise the interaction of all page elements. [Stack Overflow](https://stackoverflow.com/questions/46630191/white-space-on-right-side-of-page/46630298)
 
-- I struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "image-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). Equalising the image height might be something which I add to the "Features left to implement" section but realise there are compromises in play here.
+- I initially struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "img-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). Equalising the image height might be something which I add to the "Features left to implement" section but realise there are compromises in play here.
 ______
 
 ## **Deployment** <a name="deployment"></a>
@@ -265,9 +266,9 @@ I have attempted to work independently as much as possible while building this w
 - [TinyPNG](https://tinypng.com/) – Application for compressing image files
 - [Color Picker](https://htmlcolorcodes.com/color-picker/) – HTML and CSS colour codes
 - [amCharts](https://pixelmap.amcharts.com/) - Pixelated map generator tool
-- Shutterstock: 10 Gorgeous Color Schemes for Websites
-- 10 Trending 2020 Website Color Schemes
-- Am I responsive?
+- [Shutterstock: 10 Gorgeous Color Schemes for Websites](https://www.shutterstock.com/blog/10-gorgeous-color-schemes-for-websites?kw=&gclsrc=aw.ds&gclid=Cj0KCQjw2or8BRCNARIsAC_ppyaGHtDUv5oNSHP0th9gb8N6VBiGFAq-pYu1cFQFW5szceQETvoAnKgaAhwPEALw_wcB)
+- [10 Trending 2020 Website Color Schemes](https://www.quicksprout.com/trending-website-color-schemes/)
+- [Am I responsive?](http://ami.responsivedesign.is/) - provides a simple view of a websites responsiveness.
 
 ______
 
@@ -281,6 +282,7 @@ All of the text in this website is entirely original and has largely been adapte
 
 The photos used in this site were obtained from:
 
+- The portrait on the landing page is a 'selfie' taken by myself - clearly nobody else would want that in their album.
 - Image of the Rig – Was one of several taken by me on a visit to West Texas in 2018
 - The pixelated map was created in [amCharts](https://pixelmap.amcharts.com/)
 - E6 Company logo was copied from [LinkedIn](https://www.linkedin.com/company/element-six/)
