@@ -81,7 +81,7 @@ p {
 }
 
 .copyright {
-    color: #f4f3ea;
+    color: #181739;
     padding: 0;
 }
 
@@ -148,9 +148,9 @@ p {
 
 a.hyperlink {
     text-decoration: underline;
-    color: #007bff;    
+    color: #034e9e;    
 }
-
+ 
 a.hyperlink:visited {
     text-decoration: underline;
     color: #660194;
@@ -175,6 +175,10 @@ a.hyperlink:visited {
 }
 
 /*--------------------------------- Landing Page*/
+
+.headline {
+    padding: 20px;
+}
 
 .personal-statement{
     padding-top: 100px;    
@@ -475,6 +479,14 @@ width: 100%;
 
 /*--------------------------------- Media Queries--*/
 
+@media(min-width: 992px) {
+    .personal-statement,
+    .headline {
+        font-size: 22px;
+        line-height: 2;
+    }
+}
+
 @media(max-width: 992px) {
 .center-form {
         max-width: 50%;
@@ -487,7 +499,7 @@ width: 100%;
 }
 }
 
-@media(max-width:768px) {
+@media(max-width: 768px) {
     .job-title,
     .job-title::after {
         font-size: 19px;
@@ -503,7 +515,7 @@ width: 100%;
 }
 }
 
-@media(max-width:568px) {
+@media(max-width: 568px) {
 .personal-statement {
     padding-top: 25px;  
 }
