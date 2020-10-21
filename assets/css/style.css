@@ -511,15 +511,32 @@ width: 100%;
 /*--------------------------------- Media Queries--*/
 
 @media(min-width: 1200px) {
+    .headline-text {
+        font-size: 26px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
     ul.list-text li,
     .list-text #rgu-mods,  
     .text,
     .progress-section span,  
-    .card-text
-    .contact-me label {
+    .card-text, 
+    .contact-me label, 
+    .contact-table .key p, 
+    .contact-table .value p {
         font-size: 23px;
     }
-    .school {
+
+    .job-title,
+    .work-dates {
+        font-size: 22px;
+    }
+
+    .school,  
+    .content {
         font-size: 20px;
     }
 }
