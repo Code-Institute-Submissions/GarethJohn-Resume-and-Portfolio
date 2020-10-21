@@ -275,9 +275,8 @@ li.school {
     padding-top: 30px;
 }
 
-.progress-section,
-.course-section,
-.skills-section li {
+.list-text, 
+.progress {
     font-size: 20px;
 }
 
@@ -502,6 +501,15 @@ width: 100%;
 }
 
 /*--------------------------------- Media Queries--*/
+
+@media(min-width: 1200px) {
+    ul.text li, 
+    .text, 
+    .card-text
+    .contact-me label {
+        font-size: 24px;
+    }
+}
 
 @media(min-width: 992px) {
     .personal-statement,
