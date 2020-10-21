@@ -531,7 +531,8 @@ width: 100%;
     }
 
     .job-title,
-    .work-dates {
+    .work-dates, 
+    .nav-list {
         font-size: 22px;
     }
 
