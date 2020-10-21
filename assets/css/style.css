@@ -187,6 +187,14 @@ a.hyperlink:visited {
     padding: 30px 20px 10px 20px;
 }
 
+.headline-heading {
+    padding-left: 30px;
+}
+
+.headline-text {
+    padding: 0 30px;
+}
+
 .portrait {
     border-radius: 50px;
     -webkit-box-shadow: 10px 10px 17px -2px rgba(0,0,0,0.75);
@@ -503,11 +511,16 @@ width: 100%;
 /*--------------------------------- Media Queries--*/
 
 @media(min-width: 1200px) {
-    ul.text li, 
-    .text, 
+    ul.list-text li,
+    .list-text #rgu-mods,  
+    .text,
+    .progress-section span,  
     .card-text
     .contact-me label {
-        font-size: 24px;
+        font-size: 23px;
+    }
+    .school {
+        font-size: 20px;
     }
 }
 
