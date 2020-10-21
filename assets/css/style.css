@@ -512,7 +512,8 @@ width: 100%;
 
 @media(min-width: 1200px) {
     .headline-text {
-        font-size: 26px;
+        font-size: 28px;
+        letter-spacing: 1px;
     }
 
     .card-title {
