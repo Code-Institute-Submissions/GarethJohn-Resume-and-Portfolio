@@ -1,7 +1,7 @@
 # [**Gareth John – Professional Portfolio and Resume**](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
 
 The purpose of this website is to create an online presence for an individual (myself in this case) to highlight skills, experience, work history and to showcase projects to potential employers. This must be achieved in a visually appealing UX, which enables the user to easily navigate and locate the information irrespective of the device they are using (mobile first approach).
-The ultimate aim is to assist the individual in securing future employment opportunities as a software developer, by showcasing acquired skills of the common technologies used and 
+The ultimate aim is to assist the individual in securing future employment opportunities as a software developer, by showcasing acquired skills of the common technologies used and implementation in live websites.
 
 [The live website can be viewed here!](https://gazzaj.github.io/GarethJohn-Resume-and-Portfolio/)
 
@@ -24,11 +24,9 @@ ______
 
 ## **User Experience (UX)** <a name="user-experience"></a>
 
-My aim is to provide a simple yet intuitive user experience, which requires the minimum amount of scrolling to locate information. I see this as particularly important on mobile screens.
-
-For this reason, I had elected to 
-- maintain a fixed menu bar at the top of the screen.
-- limit the amount of detail in the Work History section 
+My aim is to provide a simple yet intuitive user experience, which requires the minimum amount of scrolling to locate information. I see this as particularly important on mobile screens. For this reason, I had elected to 
+- Maintain a fixed menu bar at the top of the screen.
+- Limit the amount of detail in the Work History section 
 
 ### **User Stories** <a name="stories"></a>
 
@@ -50,25 +48,26 @@ As previously stated, the aim of this project is 3-fold:
  - To showcase projects  
  ... all with the aim of increasing the individual's employability
 
-It is also important that potential employers, recruiters or clients can easily make contact with the individual. This is achieved through the use of:
-- email links
-- social media links
-- contact form
- 
-My intention is to provide some basic general information on the landing page sufficient to generate some curiosity; then to make the key information easily accessible through an intuitive and repeating UX design. The intention is to provide multiple routes top the skills, experience and work history as well as multiple links to the downloadable CV.
+My intention is to provide some basic general information on the landing page sufficient to generate some curiosity; then to make the key information easily accessible through an intuitive and repeating UX design. The intention is to provide multiple routes to the skills, experience and work history as well as multiple links to the downloadable CV.
 - Multiple links to Experience section from Landing page.
 - Concise listing of skills
 - Abridged version of work history
 - Multiple links to a downloadable CV
 - Portfolio page with Project summaries and links to the deployed pages
 
+It is also important that potential employers, recruiters or clients can easily make contact with the individual. This is achieved through the use of:
+- Email links - listed on each page
+- Social media links - located in the footer of each page
+- Contact page - with contact info and a form where the user can get in touch with the individual.
+ 
+
 #### **Scope**  
-I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical if I encounter any issues during the build and need to troubleshoot on the fly. I am aiming for a decent Minimum Viable Product.
+I am aiming for a decent Minimum Viable Product, yet I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical for manageing issues during the build and need to troubleshoot on the fly.
 In the planning for the website I created preferred and alternate design options; preferred being the more achievable option.
-I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become useless on mobile. Thus I opted for the current, simpler stacked configuration.
+I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become much less effective on mobile. Thus I opted for the current, simpler stacked configuration.
 
 #### **Structure**  
-I plan to maintain a common navbar and footer section throughout the website to create an intuitive UX.  
+The aim to build on user knowledge by providing intuitive UX with a common navbar and footer section throughout the website.  
  - In the end, there was a deliberate change to the 'CONTACT'; section of the contact.html page. Given that this page will have all the necessary contact information on it I decided to change the footer section to an 'ABOUT ME' box, where the user is reminded of some of the candidates key skills (as opposed to repeating the contact information).
 
 I liked the idea of splitting the information into two sections with 1/3 and 2/3 widths respectively as we had done in the UCD Resume Walkthrough project. I intend to recreate this basic structure without copying the code from that exercise.
@@ -90,7 +89,8 @@ The original design concepts/wireframes for each gage can be viewed below:
 - [Portfolio Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Portfolio.png)
 - [Contact Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Contact.png) 
 
-As mentioned in the Scope section I created multiple design concepts to reflect my different design ideas.
+As mentioned in the Scope section I created multiple design concepts to reflect my different design ideas. 
+ - I have adapted aspects of each page design during the build to suit the purpose, without losing sight of the original goal.
 
 #### **Surface**
 
@@ -113,7 +113,7 @@ The only issue with typography is narrowing my choice down to one or two fonts.
 ##### **Imagery** 
 Given the intended purpose of this site is to convey my skills, experience and work history I have limited the use of images, preferring to focus on these other aspects. However, I want the few images I use to convey my journey from working on oil rigs and not into coding websites; I have thus attempted to pick appropriate images.
   
-The only section where I break this rule doesn't apply is the 'PORTFOLIO' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
+The only section where I break this rule doesn't apply is the 'Portfolio' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
 I have reused the image of the rig for the contact page as it represents teamwork and links well with the heading "_How can we work together?_"
 
 ______
@@ -196,8 +196,7 @@ The philosophy I have used throughout this build is to build, review and test ea
     - Navbar text changed to a darker colour
     - Hyperlink colour changed to a darker blue for increased contrast
     - Copyright text changed to a darker colour to provide contrast.
-
-
+- Spelling Checked using [Typosaurus](https://typosaur.us/)
 - HTML Validation
 Each page has been checked and all errors have been corrected.
 - CSS Validation
@@ -207,7 +206,8 @@ Returned several errors related to the use of vendor extensions. I have chosen t
 - Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
 - [Website speed test](https://www.webpagetest.org/result/201020_DiS2_d82b833e59172a62a58b4c1a1ccb5856/) where it passed in all but Security and Cache static content.
 - Spelling checked by copying and pasting the text into word.
-- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete.
+- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I received the following feedback: -
+  - [Email from Eamonn Carroll]()
 - I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
 
 ______
@@ -311,7 +311,7 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
 
 - The idea for this project originally came from a basic Resume exercise to illustrate ordered and unorder I had worked on while using the Mimo app&#39; (https://getmimo.com/playgrounds/812454) prior to starting the Full Stack Software Development course at the Code Institute. I subsequently expanded the basic exercise to create an online resume.
 
-- I'd like to thank my mentor Sinead O'Brian for her direct and honest feedback and helpful advice in the run up to, and during this project.
+- I'd like to thank my mentor Sinead O'Brian for her direct and honest feedback, support and helpful advice in the run up to, and during this project.
 
 - Further inspiration came from the UCD-Resume project in the CI User Centric Frontend module. I particularly identified with the thirds concept for separating the content.
 
