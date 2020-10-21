@@ -82,12 +82,12 @@ The navbar will also incorporate a link to a downloadable version of my CV.
 A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.
 
 The original design concepts/wireframes for each gage can be viewed below:
-- [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Landing%20Page%20Design.png)
-  - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Alternate%20Landing%20Page.png)
-- [Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Preferred%20Experience%20Page.png)
-  - [Alternate Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Alternate%20Experience%20Page.png)
-- [Portfolio Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Portfolio.png)
-- [Contact Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/Contact.png) 
+- [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/original-landing--page.png)
+  - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/alternate-landing--page.png)
+- [Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/preferred-experience-page.png)
+  - [Alternate Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/alternate-experience--page.png)
+- [Portfolio Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/portfolio-page.png)
+- [Contact Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/contact-page.png) 
 
 As mentioned in the Scope section I created multiple design concepts to reflect my different design ideas. 
  - I have adapted aspects of each page design during the build to suit the purpose, without losing sight of the original goal.
@@ -205,9 +205,9 @@ Returned several errors related to the use of vendor extensions. I have chosen t
 - [CSS Auto Prefixer](https://autoprefixer.github.io/) - CSS file checked 
 - Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
 - [Website speed test](https://www.webpagetest.org/result/201020_DiS2_d82b833e59172a62a58b4c1a1ccb5856/) where it passed in all but Security and Cache static content.
-- Spelling checked by copying and pasting the text into word.
+- README.md file spelling checked by copying and pasting the text into word.
 - I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I received the following feedback: -
-  - [Email from Eamonn Carroll]()
+  - [Email from Eamonn Carroll](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/feedback-ec.png)
 - I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
 
 ______
@@ -287,10 +287,10 @@ The photos used in this site were obtained from:
 - The pixelated map was created in [amCharts](https://pixelmap.amcharts.com/)
 - E6 Company logo was copied from [LinkedIn](https://www.linkedin.com/company/element-six/)
 - The remaining images were downloaded from the following sites:
- - The image cointaining blurred code was copied from [Pexels](https://www.pexels.com/photo/office-working-app-computer-97077/)
- - The Laptop imaged used in the portfolio page was copied from [Pixabay](https://pixabay.com/photos/coding-programming-working-macbook-924920/)
- - Under Construction from [Pixabay](https://pixabay.com/illustrations/under-construction-construction-sign-2408062/)
- - The portfolio project images were screenshots taken after completion of the respective walkthrough projects.
+  - The image cointaining blurred code was copied from [Pexels](https://www.pexels.com/photo/office-working-app-computer-97077/)
+  - The Laptop imaged used in the portfolio page was copied from [Pixabay](https://pixabay.com/photos/coding-programming-working-macbook-924920/)
+  - Under Construction from [Pixabay](https://pixabay.com/illustrations/under-construction-construction-sign-2408062/)
+  - The portfolio project images were screenshots taken after completion of the respective walkthrough projects.
 
 ### **Code Snippets**
 
@@ -311,7 +311,7 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
 
 - The idea for this project originally came from a basic Resume exercise to illustrate ordered and unorder I had worked on while using the Mimo app&#39; (https://getmimo.com/playgrounds/812454) prior to starting the Full Stack Software Development course at the Code Institute. I subsequently expanded the basic exercise to create an online resume.
 
-- I'd like to thank my mentor Sinead O'Brian for her direct and honest feedback, support and helpful advice in the run up to, and during this project.
+- I'd like to thank my mentor Sinead O'Brian for her direct and honest feedback, support and helpful advice in the run up to, and during this project. Thanks also for recommending Dillinger as a markdown editor.
 
 - Further inspiration came from the UCD-Resume project in the CI User Centric Frontend module. I particularly identified with the thirds concept for separating the content.
 
