@@ -93,6 +93,8 @@ As mentioned in the Scope section I created multiple design concepts to reflect 
  - I have adapted aspects of each page design during the build to suit the purpose, without losing sight of the original goal.
 
 #### **Surface**
+The websites pages were built almost in reverse order from 'Contact', 'Resume' through 'Portfolio' and finally the home page. This was a deliberate choice based on how confident I was in the structure of each page. I had well defined design ideas for the first two pages but struggled more, nailing down a structure for the homepage.
+That said I am pleased with the overall result
 
 ##### **Colour Scheme**
 I had intended to use a darker colour scheme for this website. However as the build progressed it just didn't seem to suit; nor did it match the images I had selected. Of all aspects of this build I will freely admit this was the area I struggled with the most. After some trial and error I sought inspiration from two websites:
@@ -206,7 +208,11 @@ Returned several errors related to the use of vendor extensions. I have chosen t
 - Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
 - [Website speed test](https://www.webpagetest.org/result/201020_DiS2_d82b833e59172a62a58b4c1a1ccb5856/) where it passed in all but Security and Cache static content.
 - README.md file spelling checked by copying and pasting the text into word.
-- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I received the following feedback: -
+- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I requested the following testing:-
+- Check the navigation through the navbar, ensuring you arrive at the desired page.
+- Evaluate the visual aspects of each page.
+- Check functionality of the hyperlinks, and ensure each one opens up in a new browser tab
+- I received the following feedback: -
   - [Email from Eamonn Carroll](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/feedback-ec.png)
 - I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
 
@@ -239,15 +245,28 @@ ______
 ## **Deployment** <a name="deployment"></a>
 
 ### **GitHub Pages**
-The project was deployed to GitHub Pages using the following steps...
-
+The project was deployed to GitHub Pages using the following steps
 - Logging in to GitHub and locating the GitHub Repository
 - Clicking the "Settings" Button in the menu tabs.
 - Within the Settings page scrolling down until the "GitHub Pages" section was located.
 - Under the "Source" heading there is a dropdown menu. The "Master Branch" was selected.
-- The newly created website address is now displayed in the green box at the top of the Github Pages section.
+- The newly created website address is now displayed in the box at the top of the Github Pages section.
 
-- There is no difference between the developed version and that deployed on Git Hub Pages
+There is no difference between the developed version and that deployed on Git Hub Pages
+
+### **Forking the GitHub Repository**
+By forking the GitHub Repository you can make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
+### **Making a Local Clone**
+- Log in to GitHub and locate the GitHub Repository
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL you copied in Step 3.
 ______
 
 ## **Resources** <a name="resources"></a>
@@ -311,7 +330,7 @@ I copied and subsequently adapted the accordion feature fromthe tutorial provide
 
 - The idea for this project originally came from a basic Resume exercise to illustrate ordered and unorder I had worked on while using the Mimo app&#39; (https://getmimo.com/playgrounds/812454) prior to starting the Full Stack Software Development course at the Code Institute. I subsequently expanded the basic exercise to create an online resume.
 
-- I'd like to thank my mentor Sinead O'Brian for her direct and honest feedback, support and helpful advice in the run up to, and during this project. Thanks also for recommending Dillinger as a markdown editor.
+- I'd like to thank my mentor Sinead O'Brien for her direct and honest feedback, support and helpful advice in the run up to, and during this project. Thanks also for recommending Dillinger as a markdown editor.
 
 - Further inspiration came from the UCD-Resume project in the CI User Centric Frontend module. I particularly identified with the thirds concept for separating the content.
 
