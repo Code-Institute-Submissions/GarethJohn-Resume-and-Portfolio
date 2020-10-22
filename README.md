@@ -44,7 +44,7 @@ My aim is to provide a simple yet intuitive user experience, which requires the 
 ![Website Resume page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-3.png "Website resume page")
 
 4. **_As a_** Recruiter, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** increase my chances of successfully placing the candidate with my portfolio of clients.
-  - The 'Portfolio' page contains a brief description of projects compoleted and a hyperlink to the live project.
+  - The 'Portfolio' page contains a brief description of projects completed and a hyperlink to the live project.
 ![Website Portfolio page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-4.png)
 
 ### **The 5 Planes of UX** <a name="planes"></a>
@@ -71,9 +71,9 @@ It is also important that potential employers, recruiters or clients can easily 
  
 
 #### **Scope**  
-I am aiming for a decent Minimum Viable Product, yet I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical for manageing issues during the build and need to troubleshoot on the fly.
+I am aiming for a decent Minimum Viable Product, yet I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical for managing issues during the build and need to troubleshoot on the fly.
 In the planning for the website I created preferred and alternate design options; preferred being the more achievable option.
-I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become much less effective on mobile. Thus I opted for the current, simpler stacked configuration.
+I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become much less effective on mobile. Thus, I opted for the current, simpler stacked configuration.
 
 #### **Structure**  
 The aim to build on user knowledge by providing intuitive UX with a common navbar and footer section throughout the website.  
@@ -126,7 +126,7 @@ The only issue with typography is narrowing my choice down to one or two fonts.
 Given the intended purpose of this site is to convey my skills, experience and work history I have limited the use of images, preferring to focus on these other aspects. However, I want the few images I use to convey my journey from working on oil rigs and not into coding websites; I have thus attempted to pick appropriate images.
   
 The only section where I break this rule doesn't apply is the 'Portfolio' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
-I have reused the image of the rig for the contact page as it represents teamwork and links well with the heading "_How can we work together?_"
+I have reused the image of the rig for the contact page as it represents teamwork and links well with the heading "_How can we work together?"
 
 ______
 
@@ -148,7 +148,7 @@ What follows is a list of the main features incorporated into the website, and a
 
 ### **Features Left to Implement**
 
-- I would eventually like to complete the Contact form so it is connected to an email API (currently lacking the JavaScript skills).
+- I would eventually like to complete the Contact form so it is capable of sending the user submitted data to me via email - I am currently lacking the JavaScript skills to enable this feature.
 - Depending on the number of projects which I reference on this site I may need to consider a different layout for the Portfolio Page.
 
 ______
@@ -164,8 +164,8 @@ Core coding languages
 
 Integrations
 
-- ![Bootstrap 4](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/bootstrap-logo.png "Bootstrap 4") Bootstrap 4
-- ![Font Awesome](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/fontawesome-logo.png "Font Awsome") - Font Awesome was the source of all icons.
+- ![Bootstrap 4](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/bootstrap-logo.png "Bootstrap 4") - Bootstrap 4
+- ![Font Awesome](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/fontawesome-logo.png "Font Awesome") - Font Awesome was the source of all icons.
 - ![Google Fonts](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/googlefonts-logo.png "Google Fonts") - Fonts used on the website courtesy of Google Fonts
 - JQuery - The project uses JQuery to simplify DOM manipulation.
 - Hover.css for button hover effects
@@ -199,10 +199,10 @@ The philosophy I have used throughout this build is to build, review and test ea
 - I have tested email links to ensure they open up the default email application and insert the email address.
   - Works on Samsung S9 – opening Gmail
   - Laptop – opening Outlook
-- I have tested the Portfolio Project card links on laptop and Samsung Galaxy S9 and they correctly opn in new browser tabs.
+- I have tested the Portfolio Project card links on laptop and Samsung Galaxy S9 and they correctly open in new browser tabs.
 - Tested the contact form on the Contact page to ensure correct functionality. This was linked to the CI Form dump page so I could verify the data sent.
 - Testing of the 'required' attribute which ensures all contact form field get filled in before the data can be sent.
-- I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered _e.g_ [_name@something.com_](mailto:name@something.com)
+- I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered e.g [_name@something.com_](mailto:name@something.com)
 - Accessibility Test
   - Highlighted potential issue with the choice text colour on the navbar, hyperlinks and Copyright section
     - Navbar text changed to a darker colour
@@ -245,6 +245,8 @@ ______
  This was a useful method to visualise the interaction of all page elements. [Stack Overflow](https://stackoverflow.com/questions/46630191/white-space-on-right-side-of-page/46630298)
 
 - I initially struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "img-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). Equalising the image height might be something which I add to the "Features left to implement" section but realise there are compromises in play here.
+
+- I had highlighted in the features section that the form on the 'Contact' page is not yet connected, and is incapable of sending me any of the user inputs. This is because I currently lack the skills and knowledge required to achieve connectivity. This will be covered in future modules and will have to wait until the end of the course to be implemented.
 ______
 
 ## **Deployment** <a name="deployment"></a>
