@@ -32,7 +32,7 @@ My aim is to provide a simple yet intuitive user experience, which requires the 
 ### **User Stories** <a name="stories"></a>
 
 1. **_As a_** job seeker, **_I need to_** promote my skills and experience in an efficient and visually appealing way; **_in order to_** increase my chances of being interviewed and ultimately employed.
-  - The deployed website addresses this requirement by creating an initial online presence:
+  - The deployed website addresses this requirement by creating an initial online presence with access to my skills, experience and project:
 ![Website landing page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-1.png "Website landing page")
 
 2. **_As a_** Hiring Manager/HR, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** recommend them to the business and select them for interview.
@@ -71,12 +71,12 @@ It is also important that potential employers, recruiters or clients can easily 
  
 
 #### **Scope**  
-I am aiming for a decent Minimum Viable Product, yet I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical for managing issues during the build and need to troubleshoot on the fly.
+I am aiming for a decent Minimum Viable Product, yet I want to challenge myself to produce something I am proud to put my name on, without overextending myself and causing scope creep. I am conscious that I needed to keep the content within the scope of my current knowledge; this is critical for managing issues during the build and the potential need to troubleshoot on the fly.
 In the planning for the website I created preferred and alternate design options; preferred being the more achievable option.
-I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become much less effective on mobile. Thus, I opted for the current, simpler stacked configuration.
+- I had originally planned to use an image carousel on the home page, and although I was able to get this to function on large screens it would become much less effective on mobile. Thus, I opted for the current, simpler stacked configuration.
 
 #### **Structure**  
-The aim to build on user knowledge by providing intuitive UX with a common navbar and footer section throughout the website.  
+I aim to build on user knowledge by providing intuitive UX with a common navbar and footer section throughout the website.  
  - In the end, there was a deliberate change to the 'CONTACT'; section of the contact.html page. Given that this page will have all the necessary contact information on it I decided to change the footer section to an 'ABOUT ME' box, where the user is reminded of some of the candidates key skills (as opposed to repeating the contact information).
 
 I liked the idea of splitting the information into two sections with 1/3 and 2/3 widths respectively as we had done in the UCD Resume Walkthrough project. I intend to recreate this basic structure without copying the code from that exercise.
@@ -91,7 +91,7 @@ The navbar will also incorporate a link to a downloadable version of my CV.
 A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.
 
 #### **Design Concept Wireframes** <a name="wireframes"></a>
-Wireframes for the original design concepts were created using Balsamiq, and can be viewed below:
+Wireframes for the original design concepts were created using Balsamiq, and can be viewed using the links below:
 - [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/original-landing--page.png)
   - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/alternate-landing--page.png)
 - [Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/preferred-experience-page.png)
@@ -103,7 +103,7 @@ As mentioned in the Scope section I created multiple design concepts to reflect 
  - I have adapted aspects of each page design during the build to suit the purpose, without losing sight of the original goal.
 
 #### **Surface**
-The websites pages were built almost in reverse order from 'Contact', 'Resume' through 'Portfolio' and finally the home page. This was a deliberate choice based on how confident I was in the structure of each page. I had well defined design ideas for the first two pages but struggled more, nailing down a structure for the homepage.
+The websites pages were almost built in reverse order from 'Contact', 'Resume' through 'Portfolio' and finally the home page. This was a deliberate choice based on how confident I was in the structure of each page. I had well defined design ideas for the first two pages but struggled to nail down a structure for the homepage.
 That said I am pleased with the overall result
 
 ##### **Colour Scheme**
@@ -111,8 +111,8 @@ I had intended to use a darker colour scheme for this website. However as the bu
 - [10 Gorgeous Color Schemes for Websites](https://www.shutterstock.com/blog/10-gorgeous-color-schemes-for-websites?kw=&gclsrc=aw.ds&gclid=Cj0KCQjw2or8BRCNARIsAC_ppyaGHtDUv5oNSHP0th9gb8N6VBiGFAq-pYu1cFQFW5szceQETvoAnKgaAhwPEALw_wcB)
 - [10 Trending 2020Website Color Schemes](https://www.quicksprout.com/trending-website-color-schemes/)
 
-I decided on the "Scholar" colour scheme as it fitted the theme of the website and made some use of a darker blue, which had been my original intention. I had added the teal colour to provide another slightly brighter colour for contrast.
-On reflection I am pleased with the result; it isn't too playful or childish, yet isn't cold and boring. The colours provide a decent amount of contrast.
+I decided on the "Scholar" colour scheme as it fitted the theme of the website and made some use of a darker blue, which had been my original intention. I added the teal colour to provide another slightly brighter colour for contrast.
+- On reflection I am pleased with the result; it isn't too playful or childish, yet isn't cold and boring. The colours provide a decent amount of contrast.
 
 I wanted the look and functionality of the hyperlinks to be intuitive so read a little about achieving the right aesthetics
 - [WebFX - Designing and styling hyperlinks](https://www.webfx.com/blog/web-design/designing-hyperlinks-tips-and-best-practices/)
@@ -123,9 +123,10 @@ The only issue with typography is narrowing my choice down to one or two fonts.
 - I complemented Michroma with the **_Cairo_** font after comparing various combinations on the Google Fonts page. The selection was primarily made on the basis of aesthetics and ease of reading. Maybe it's my age but some font's were just a bit cramped and thus difficult to read, if that makes sense?
 
 ##### **Imagery** 
-Given the intended purpose of this site is to convey my skills, experience and work history I have limited the use of images, preferring to focus on these other aspects. However, I want the few images I use to convey my journey from working on oil rigs and not into coding websites; I have thus attempted to pick appropriate images.
+Given the intended purpose of this site is to convey my skills, experience and work history I have limited the use of images, preferring to focus on these other aspects. However, I want the few images I use to convey my journey from working on oil rigs and now into coding websites; I have thus attempted to pick appropriate images.
   
-The only section where I break this rule doesn't apply is the 'Portfolio' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
+The only section where I break this rule is the 'Portfolio' page. I want to use images of the projects in an attempt to generate interest and hopefully lead to user interaction.
+
 I have reused the image of the rig for the contact page as it represents teamwork and links well with the heading "_How can we work together?"
 
 ______
@@ -179,12 +180,12 @@ Version Control, storage and hosting
 
 Other
 
-- Dillinger is an online markdown editor.
+- Dillinger was used to edit the markdown required for the README file.
 ______
 
 ## **Testing** <a name="testing"></a>
 
-The philosophy I have used throughout this build is to build, review and test each part of the website as I progressed, relying heavily on Google Dev tools throughout for first pass testing.
+The philosophy I have used throughout this build is to code, review and test each part of the website as I progressed, relying heavily on Google Dev tools throughout, for first pass testing.
 
 - Repeatedly tested the 'navbar' links throughout development to ensure correct navigation.
 - I used DevTools extensively during development, changing devices, to ensure the desired responsive behaviour was achieved.
@@ -196,13 +197,14 @@ The philosophy I have used throughout this build is to build, review and test ea
 - I tested the functionality of the 'accordion' feature on the Experience page on these devices to ensure aesthetics and functionality were maintained.
   - This helped me make some changes to maintain responsiveness. 
 - Repeatedly tested all hyperlinks to ensure they function and correctly open up the required sites in new browser tabs.
+  - The exception to this is the "get in touch" hyperlink on the 'Portfolio' page, considering this only navigates to one of the other pages on the same website rather than another website. On reflection it didn't seem appropriate for this to open a duplicate website on another page.
 - Tested Social Media icon to ensure they also link to the correct sites and open in new browser tabs.
 - I have tested email links to ensure they open up the default email application and insert the email address.
   - Works on Samsung S9 – opening Gmail
   - Laptop – opening Outlook
 - I have tested the Portfolio Project card links on laptop and Samsung Galaxy S9 and they correctly open in new browser tabs.
 - Tested the contact form on the Contact page to ensure correct functionality. This was linked to the CI Form dump page so I could verify the data sent.
-- Testing of the 'required' attribute which ensures all contact form field get filled in before the data can be sent.
+- Testing of the 'required' attribute which ensures all contact form fields get filled in before the data can be sent.
 - I have tested the email address entry on the Contact form to ensure correctly formatted email addresses can be entered e.g [_name@something.com_](mailto:name@something.com)
 - Accessibility Test
   - Highlighted potential issue with the choice text colour on the navbar, hyperlinks and Copyright section
@@ -211,9 +213,9 @@ The philosophy I have used throughout this build is to build, review and test ea
     - Copyright text changed to a darker colour to provide contrast.
 - Spelling Checked using [Typosaurus](https://typosaur.us/)
 - HTML Validation
-Each page has been checked and all errors have been corrected.
+  - Each page has been checked and all errors have been corrected.
 - CSS Validation
-Returned several errors related to the use of vendor extensions. I have chosen to accept these errors based on the fact they increase compatibility. [Stack Overflow](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
+  - Returned several errors related to the use of vendor extensions. I have chosen to accept these errors based on the fact they increase compatibility. [Stack Overflow](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
 
 - [CSS Auto Prefixer](https://autoprefixer.github.io/) - CSS file checked 
 - Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
@@ -230,7 +232,7 @@ ______
   - The solution to this was found in the [Slack community](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1592942356085000?thread_ts=1592936056.080800&cid=C7J2ZAVHB); and was simply a case of relocating one of the bootstrap JS CDN links to the 'head'
 
 
-- While building the navbar toggler, the menu items would only appear on the right.
+- While building the navbar toggler, the menu items would only appear on the left.
   - The solution was provided on [Stack Overflow](https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393)
 
 
@@ -245,7 +247,7 @@ ______
 - Throughout the build I had an issue with there being whitespace down the right-hand side of my pages. The issue wasn't immediately obvious, until I created boxes around every element; which highlighted some divs were wider than the remainder of the page.
  This was a useful method to visualise the interaction of all page elements. [Stack Overflow](https://stackoverflow.com/questions/46630191/white-space-on-right-side-of-page/46630298)
 
-- I initially struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "img-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). Equalising the image height might be something which I add to the "Features left to implement" section but realise there are compromises in play here.
+- I initially struggled to achieve fully responsive and fixed height images for my portfolio cards. In fact I'm not sure this is possible to achieve without changing aspect ratios so I resorted to the "img-fluid" class from [Bootstrap - images](https://getbootstrap.com/docs/4.0/content/images/). 
 
 - I had highlighted in the features section that the form on the 'Contact' page is not yet connected, and is incapable of sending me any of the user inputs. This is because I currently lack the skills and knowledge required to achieve connectivity. This will be covered in future modules and will have to wait until the end of the course to be implemented.
 ______
@@ -322,14 +324,14 @@ The photos used in this site were obtained from:
 ### **Code Snippets**
 
 - Bootstrap responsive navbar - [Bootstrap 4 - navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
-- While building the navbar toggler, the menu items would only appear on the right.
+- While building the navbar toggler, the menu items would only appear on the left.
   - The solution was provided on [Stack Overflow](https://stackoverflow.com/questions/47518911/boostrap-4-navbar-collapse-menu-right-align/50881393) 
 - My navbar had a small amount of whitespace on the right-hand side.
   - The solution to remove this was again found on [Stack Overflow](https://stackoverflow.com/questions/48510609/remove-white-space-from-the-sides-and-top-of-my-navbar/48510687) 
 - **Progress bars**
 The progress bars used in resume.html were taken from [Bootstrap 4 - Progress](https://getbootstrap.com/docs/4.0/components/progress/)
 - **Accordion Feature**
-I copied and subsequently adapted the accordion feature fromthe tutorial provided on this webpage[**font-awesome-accordion-arrow-css**](https://supfort.com/font-awesome-accordion-arrow-css)
+I copied and subsequently adapted the accordion feature from the tutorial provided on this webpage [**font-awesome-accordion-arrow-css**](https://supfort.com/font-awesome-accordion-arrow-css)
   - The reason for not using the standard Bootstrap accordion was that I wanted to visually indicate there was additional content hidden within each role.
 - The code to achieve better looking bullets was taken from [Fontawsome](https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list)
 - The project cards were also adapted from [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/card/) code.
