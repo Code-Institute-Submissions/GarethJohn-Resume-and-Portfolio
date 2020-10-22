@@ -12,6 +12,7 @@ The ultimate aim is to assist the individual in securing future employment oppor
 2. [Features](#features)
     - [User Stories](#stories)
     - [The 5 Planes](#planes)
+    - [Wireframes](#wireframes)
 3. [Technologies Used](#technologies)
 4. [Testing](#testing)
 5. [Bugs & Issues](#bugs)
@@ -31,12 +32,20 @@ My aim is to provide a simple yet intuitive user experience, which requires the 
 ### **User Stories** <a name="stories"></a>
 
 1. **_As a_** job seeker, **_I need to_** promote my skills and experience in an efficient and visually appealing way; **_in order to_** increase my chances of being interviewed and ultimately employed.
+  - The deployed website addresses this requirement by creating an initial online presence:
+![Website landing page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-1.png "Website landing page")
 
-1. **_As a_** Hiring Manager/HR, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** recommend them to the business and select them for interview
+2. **_As a_** Hiring Manager/HR, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** recommend them to the business and select them for interview.
+  - The 'Resume' page of the deployed website provides an overview of skills and experience:
+![Website Resume page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-2.png "Website resume page")
 
-1. **_As a_** Technical Manager, **_I need to_** determine technical proficiency and if the candidate has the skills and experience, I am looking for; **_in order to_** bring them into my team be confident they can add value
+3. **_As a_** Technical Manager, **_I need to_** determine technical proficiency and if the candidate has the skills and experience, I am looking for; **_in order to_** bring them into my team be confident they can add value.
+  - The 'Resume' page of the deployed website provides a list of previous work history:
+![Website Resume page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-3.png "Website resume page")
 
-1. **_As a_** Recruiter, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** increase my chances of successfully placing the candidate with my portfolio of clients.
+4. **_As a_** Recruiter, **_I need to_** quickly establish if the candidate has the required skills and experience; **_in order to_** increase my chances of successfully placing the candidate with my portfolio of clients.
+  - The 'Portfolio' page contains a brief description of projects compoleted and a hyperlink to the live project.
+![Website Portfolio page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-story-4.png)
 
 ### **The 5 Planes of UX** <a name="planes"></a>
 The five planes provide a framework for discussing user experience.
@@ -81,7 +90,8 @@ The navbar will also incorporate a link to a downloadable version of my CV.
 
 A Footer section will provide additional information with links to social media sites and email, and another download link for the CV. I have also included a copyright statement.
 
-The original design concepts/wireframes for each gage can be viewed below:
+#### **Design Concept Wireframes** <a name="wireframes"></a>
+Wireframes for the original design concepts were created using Balsamiq, and can be viewed below:
 - [Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/original-landing--page.png)
   - [Alternate Home Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/alternate-landing--page.png)
 - [Experience Page](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/preferred-experience-page.png)
@@ -149,14 +159,14 @@ This static website has been built using the following core technologies:
 
 Core coding languages
 
-- ![HTML 5](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/html-5-logo.png "HTML5")
-- ![CSS3](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/css3-logo.png "CSS3")
+- ![HTML 5](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/html-5-logo.png "HTML5") - HTML5
+- ![CSS3](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/css3-logo.png "CSS3") - CSS3
 
 Integrations
 
-- ![Bootstrap 4](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/bootstrap-logo.png)
-- ![Font Awesome](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/fontawesome-logo.png)
-- ![Google Fonts](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/googlefonts-logo.png)
+- ![Bootstrap 4](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/bootstrap-logo.png "Bootstrap 4") Bootstrap 4
+- ![Font Awesome](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/fontawesome-logo.png "Font Awsome") - Font Awesome was the source of all icons.
+- ![Google Fonts](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/googlefonts-logo.png "Google Fonts") - Fonts used on the website courtesy of Google Fonts
 - JQuery - The project uses JQuery to simplify DOM manipulation.
 - Hover.css for button hover effects
 
@@ -208,13 +218,8 @@ Returned several errors related to the use of vendor extensions. I have chosen t
 - Mobile Friendly Test - [PASS](https://search.google.com/test/mobile-friendly?id=8jZoJWUliCuw3Bdmly-IwA)
 - [Website speed test](https://www.webpagetest.org/result/201020_DiS2_d82b833e59172a62a58b4c1a1ccb5856/) where it passed in all but Security and Cache static content.
 - README.md file spelling checked by copying and pasting the text into word.
-- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I requested the following testing:-
-- Check the navigation through the navbar, ensuring you arrive at the desired page.
-- Evaluate the visual aspects of each page.
-- Check functionality of the hyperlinks, and ensure each one opens up in a new browser tab
-- I received the following feedback: -
-  - [Email from Eamonn Carroll](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/feedback-ec.png)
-- I submitted my site for a "Peer Code Review" in the Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
+- I forwarded the link to the website to friends to view and provide feedback. This was initially done at about 75% complete and again once 100% complete. I documented the procedure and the subsequent feedback in a [User Testing Document](https://github.com/GazzaJ/GarethJohn-Resume-and-Portfolio/blob/master/readme-images/user-testing-feedback-ms1.pdf).
+- I also submitted my site for a "Peer Code Review" in the Code Institute Slack community on 19-Oct-20, unfortunately I did not receive any feedback.
 
 ______
 
@@ -303,11 +308,11 @@ The photos used in this site were obtained from:
 
 - The portrait on the landing page is a 'selfie' taken by myself - clearly nobody else would want that in their album.
 - Image of the Rig – Was one of several taken by me on a visit to West Texas in 2018
-- The pixelated map was created in [amCharts](https://pixelmap.amcharts.com/)
-- E6 Company logo was copied from [LinkedIn](https://www.linkedin.com/company/element-six/)
+- The pixelated map used on the landing page was created from scratch __by myself__ using a pixel map generator in [amCharts](https://pixelmap.amcharts.com/)
+- The drill bit image used on the 'Portfolio' page was copied from [Wikimedia](https://commons.wikimedia.org/w/index.php?search=Natural+Gas+Drill+Bit&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:USGS.Natural_Gas_Well_Drill_Bit.Fayeteville_Shale_28099191.jpg)
 - The remaining images were downloaded from the following sites:
   - The image cointaining blurred code was copied from [Pexels](https://www.pexels.com/photo/office-working-app-computer-97077/)
-  - The Laptop imaged used in the portfolio page was copied from [Pixabay](https://pixabay.com/photos/coding-programming-working-macbook-924920/)
+  - The Laptop image used in the portfolio page was copied from [Pexels](https://www.pexels.com/photo/gray-laptop-computer-showing-html-codes-in-shallow-focus-photography-160107/)
   - Under Construction from [Pixabay](https://pixabay.com/illustrations/under-construction-construction-sign-2408062/)
   - The portfolio project images were screenshots taken after completion of the respective walkthrough projects.
 
