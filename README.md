@@ -150,6 +150,7 @@ What follows is a list of the main features incorporated into the website, and a
 
 - I would eventually like to complete the Contact form so it is capable of sending the user submitted data to me via email - I am currently lacking the JavaScript skills to enable this feature.
 - Depending on the number of projects which I reference on this site I may need to consider a different layout for the Portfolio Page.
+- I also intend to replace my image on the landing page with a more professional image in the near future.
 
 ______
 
