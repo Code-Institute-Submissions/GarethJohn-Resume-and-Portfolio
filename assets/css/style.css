@@ -306,6 +306,7 @@ li.school {
 }
 
 .company-info {
+    font-weight: bold;
     padding: 2px 4px 4px 2px;
     margin-top: 30px;
 }
@@ -407,6 +408,7 @@ li.school {
 
 .card-title {
     font-weight: bold;
+    text-align: center;
 }
 
 .card-body {
