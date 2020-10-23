@@ -43,7 +43,7 @@
         <div class="row contact-section">
     <!--Map Contact Information-->    
             <div class="col-md-4 section-column location off-white">                
-                <h3 class="section-header">Contact Information</h3>
+                <h3 class="section-header"><i class="fas fa-address-book" aria-hidden="true"></i> Contact Information</h3>
                 <hr class="divider">
     <!--iframe map courtesy of Google Maps-->            
                     <iframe title="A Map indicating the developers address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19703.38450050825!2d-2.0566285182039823!3d51.88061693616472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487119631d609f51%3A0x8e45753d402e27e9!2sCharlton%20Kings%2C%20Cheltenham!5e0!3m2!1sen!2suk!4v1602529465172!5m2!1sen!2suk" allowfullscreen="" aria-hidden="false" tabindex="0">
@@ -72,29 +72,29 @@
     <!--Contact Form-->        
             <div class="col-md-8 section-column contact-me">
                 <div class="contact-overlay"></div>
-                <h3 class="section-header contact-heading text-center">How can we work together?</h3>
-                <hr class="divider contact-divider">
-                    <h4 class="text-center sub-heading">Let's connect!</h4>
-                        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-                            <div class="form-group">
-                                <label for="first-name" class="label">First Name:</label>
-                                <input type="text" id="first-name" name="first-name" class="form-control shadow-sm p-3 bg-white rounded" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="last-name">Last Name:</label>
-                                <input type="text" id="last-name" name="last-name" class="form-control shadow-sm p-3 bg-white rounded" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email-address">Email Address:</label>
-                                <input type="email" id="email-address" name="email" class="form-control shadow-sm p-3 bg-white rounded" placeholder="name@example.com" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="messgae" class="form-control shadow-sm p-3 mb-4 bg-hite rounded" rows="6" placeholder="Tell me how I can add value to your project." required></textarea>
-                            </div>
-                            <div class="button">
-                                <input type="submit" class="btn btn-lg hvr-grow active-btn" value="Submit">
-                            </div>
-                        </form>                    
+                    <h3 class="section-header contact-heading text-center"><i class="fas fa-handshake" aria-hidden="true"></i> How can we work together?</h3>
+                    <hr class="divider contact-divider">
+                        <h4 class="text-center sub-heading">Let's connect!</h4>
+                            <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                                <div class="form-group">
+                                    <label for="first-name" class="label">First Name:</label>
+                                    <input type="text" id="first-name" name="first-name" class="form-control shadow-sm p-3 bg-white rounded" placeholder="John" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name">Last Name:</label>
+                                    <input type="text" id="last-name" name="last-name" class="form-control shadow-sm p-3 bg-white rounded" placeholder="Smith" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email-address">Email Address:</label>
+                                    <input type="email" id="email-address" name="email" class="form-control shadow-sm p-3 bg-white rounded" placeholder="name@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="messgae" class="form-control shadow-sm p-3 mb-4 bg-hite rounded" rows="6" placeholder="Tell me how I can add value to your project." required></textarea>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" class="btn btn-lg hvr-grow active-btn" value="Submit">
+                                </div>
+                            </form>                    
             </div>        
         </div>    
     </section>
@@ -104,7 +104,7 @@
         <div id="foot-info" class="row no-gutters">
             <div class="col-md-4 text-center contact-details gold-hue">
                 <h5 class="text-uppercase footer-heading">About Me</h5>
-                <p>HTML | CSS | Strategy | Agile Methodologies | Product Management</p>
+                <p class="footer-text">HTML | CSS | Strategy | Agile Methodologies | Product Management</p>
             </div>
     <!--Social Media Links-->    
             <div class="col-md-4 text-center med-grey">
@@ -125,7 +125,7 @@
     <!--CV Download-->    
             <div class="col-md-4 text-center cv-link gold-hue">
                 <h5 class="text-uppercase footer-heading">Detailed CV</h5>
-                <p class="inline-block">Download a printable version of my CV here!
+                <p class="inline-block footer-text">Download a printable version of my CV here!
                     <a class="active-link" href="assets/docs/gareth-john--sample---cv.pdf" target="_blank">
                     <i class="fas fa-download" aria-hidden="true"></i>
                     <span class="sr-only">Download Link</span>
@@ -135,10 +135,12 @@
     <!--Copyright-->        
             <div id="copyright" class="row container-fluid no-gutters light-teal">
                 <div class="col-12">
-                    <p class="copyright text-center"><i class="far fa-copyright"></i> 2020 Copyright: Gareth John</p>        
+                    <p class="copyright text-center footer-text"><i class="far fa-copyright" aria-hidden="true"></i> 2020 Copyright: Gareth John</p>        
                 </div>
             </div>
         </div>    
-    </footer>
+    </footer> 
+    <!--Bootstrap CDN for compiled JavaScript-->    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 </body>
 </html>

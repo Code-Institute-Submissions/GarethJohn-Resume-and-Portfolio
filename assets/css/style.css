@@ -62,6 +62,14 @@ p {
 
 /*--------------------- Footer*/
 
+.mobile-phone {
+    font-size: 25px;
+}
+
+.footer-text {
+    font-size: 22px;
+}
+
 .active-link {
     font-size: 30px;
     margin: 20px;
